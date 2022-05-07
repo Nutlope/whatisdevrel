@@ -1,8 +1,18 @@
 /* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
 import Header from "../components/Header";
+import { useRef } from "react";
 
 export default function Home() {
+  let ref = useRef();
+  const scrollHandler = (e) => {
+    e.preventDefault();
+    ref.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
     <>
       <Head>
@@ -12,8 +22,8 @@ export default function Home() {
           content="All you need to know about DevRel and how to get into it."
         />
       </Head>
-      <div className="w-full bg-slate-50 scroll-smooth dark:bg-neutral-900">
-        <Header />
+      <div className="w-full bg-slate-50 dark:bg-neutral-900">
+        <Header scrollHandler={scrollHandler} />
         {/* <div className="flex justify-evenly w-full h-28 items-center">
           <div className="bg-red-500">Hey</div>
           <div className="bg-blue-500">to</div>
@@ -22,11 +32,8 @@ export default function Home() {
         </div> */}
         <div>
           {/* TODO: Do this smooth scrolling with a ref */}
-          <div
-            id="devrel-at-a-glance"
-            className="scroll-smooth hover:scroll-auto"
-          >
-            <h1>DevRel at a glance</h1>
+          <div className="">
+            <h1 ref={(element) => (ref = element)}>DevRel at a glance</h1>
             <p>DevRel is super hot rn and great, let us explore</p>
           </div>
 
@@ -36,40 +43,40 @@ export default function Home() {
           </div>
 
           {/* TODO: Need to grab icons for those 4 boxes */}
-          <div className="grid grid-cols-1 gap-3 mb-4 lg:grid-cols-2">
+          <div className="mb-4 grid grid-cols-1 gap-3 lg:grid-cols-2">
             <a
-              className="h-full p-3 border rounded hover:bg-secondary"
+              className="hover:bg-secondary h-full rounded border p-3"
               href="#somewhere"
             >
-              <div className="inline-block w-[24px] h-[24px]">SVG in here</div>
-              <h3 className="text-lg font-semibold text-primary mb-sm">
+              <div className="inline-block h-[24px] w-[24px]">SVG in here</div>
+              <h3 className="text-primary mb-sm text-lg font-semibold">
                 What is DevRel?
               </h3>
             </a>
             <a
-              className="h-full p-3 border rounded hover:bg-secondary"
+              className="hover:bg-secondary h-full rounded border p-3"
               href="#somewhere"
             >
-              <div className="inline-block w-[24px] h-[24px]">SVG in here</div>
-              <h3 className="text-lg font-semibold text-primary mb-sm">
+              <div className="inline-block h-[24px] w-[24px]">SVG in here</div>
+              <h3 className="text-primary mb-sm text-lg font-semibold">
                 The 3 types of DevRel
               </h3>
             </a>
             <a
-              className="h-full p-3 border rounded hover:bg-secondary"
+              className="hover:bg-secondary h-full rounded border p-3"
               href="#somewhere"
             >
-              <div className="inline-block w-[24px] h-[24px]">SVG in here</div>
-              <h3 className="text-lg font-semibold text-primary mb-sm">
+              <div className="inline-block h-[24px] w-[24px]">SVG in here</div>
+              <h3 className="text-primary mb-sm text-lg font-semibold">
                 How to get hired in DevRel
               </h3>
             </a>
             <a
-              className="h-full p-3 border rounded hover:bg-secondary"
+              className="hover:bg-secondary h-full rounded border p-3"
               href="#somewhere"
             >
-              <div className="inline-block w-[24px] h-[24px]">SVG in here</div>
-              <h3 className="text-lg font-semibold text-primary mb-sm">
+              <div className="inline-block h-[24px] w-[24px]">SVG in here</div>
+              <h3 className="text-primary mb-sm text-lg font-semibold">
                 DevRel resources
               </h3>
             </a>
@@ -94,11 +101,11 @@ export default function Home() {
           </div>
           <div className="3typesofDevRel">
             <div className="border-blue-500 sm:border-t-2">
-              <div className="w-full text-5xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl mt-8">
+              <div className="mt-8 w-full text-5xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
                 The 3 types of DevRels
               </div>
             </div>
-            <div className="flex space-x-8 mt-16">
+            <div className="mt-16 flex space-x-8">
               <svg
                 viewBox="0 0 36 36"
                 fill="none"
@@ -264,7 +271,7 @@ export default function Home() {
                 </g>
               </svg>
             </div>
-            <div className="flex text-white space-x-12 font-bold w-full mt-4">
+            <div className="mt-4 flex w-full space-x-12 font-bold text-white">
               <p>
                 The <span className="text-blue-500">community</span> builder
               </p>

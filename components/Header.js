@@ -1,4 +1,4 @@
-export default function Header() {
+export default function Header({ scrollHandler }) {
   return (
     <header className="relative px-4 pb-10 pt-20 text-center md:grid md:min-h-screen md:place-items-center md:px-6 md:pt-0">
       <div className="mx-auto max-w-max">
@@ -10,7 +10,7 @@ export default function Header() {
             .com
           </span>
         </div>
-        <div className="mt-2 mb-6">
+        <div className="mt-1 mb-6">
           <h1 className="py-3 px-8 text-xl font-normal italic text-gray-800 dark:text-gray-300 md:text-2xl">
             All you need to know about{" "}
             <span className="text-blue-500">DevRel</span> and how to get into
@@ -19,9 +19,9 @@ export default function Header() {
         </div>
         <a
           title="Go to DevRel at a glance"
-          href="#devrel-at-a-glance"
+          onClick={scrollHandler}
           aria-hidden="true"
-          className="flex items-center justify-center scroll-smooth rounded-md border border-transparent bg-blue-500 px-8 py-3 font-medium text-white hover:bg-blue-700 md:w-full md:py-4 md:px-10 md:text-lg"
+          className="mx-12 flex cursor-pointer items-center justify-center rounded-md border border-transparent bg-blue-500 px-8 py-3 font-medium text-white hover:bg-blue-700 md:px-10 md:text-lg"
         >
           {" "}
           Learn more
