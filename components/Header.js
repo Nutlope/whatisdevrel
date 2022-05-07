@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="relative px-4 pb-10 sm:px-6 md:grid md:min-h-screen md:place-items-center">
+    <header className="relative px-4 pb-10 text-center sm:px-6 md:grid md:min-h-screen md:place-items-center">
       <div className="mx-auto max-w-max">
         <div className="w-full">
           <span className="text-5xl font-extrabold tracking-tighter text-gray-900 dark:text-white sm:text-8xl">
@@ -17,32 +17,16 @@ export default function Header() {
             it.
           </h1>
         </div>
-
-        <div className="mx-auto text-center">
-          <a className="text-center text-white"> Learn more</a>
-        </div>
-      </div>
-      <a
-        title="Go to DevRel at a glance"
-        href="#devrel-at-a-glance"
-        aria-hidden="true"
-        className="absolute left-1/2 bottom-2 -ml-4 hidden scroll-smooth sm:block"
-      >
-        <svg
-          className="h-14 w-14 animate-pulse text-blue-500"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <a
+          title="Go to DevRel at a glance"
+          href="#devrel-at-a-glance"
+          aria-hidden="true"
+          className="animate-pulse cursor-pointer scroll-smooth rounded-md border border-transparent bg-blue-500 px-5 py-3 font-medium text-white hover:bg-blue-900 "
         >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M19 9l-7 7-7-7"
-          ></path>
-        </svg>
-      </a>
+          {" "}
+          Learn more
+        </a>
+      </div>
     </header>
   );
 }
