@@ -5,6 +5,7 @@ import Summary from "../components/Summary";
 import { useRef } from "react";
 
 export default function Home() {
+  // The two functions below are used to smoothly scroll to the first header
   let ref = useRef();
   const scrollHandler = (e) => {
     e.preventDefault();
@@ -13,7 +14,6 @@ export default function Home() {
       block: "start",
     });
   };
-
   function setReftoElement(e) {
     ref = e;
   }
