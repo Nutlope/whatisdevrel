@@ -10,9 +10,11 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [x] Add all the content
 - [x] Remove down arrow and replace with a nice button on the homepage
 - [x] Fix mobile responsiveness issue of homepage
-- [ ] Get smooth scrolling to work with a ref
-- [ ] Add contributor section with Lee and I
-- [ ] Finish v1 and share with Lee, Shawn (& sam / tejas?)
+- [x] Get smooth scrolling to work with a ref
+- [ ] Finish general layout and styling
+- [ ] Grab 4 SVG icons for the 4 boxes
+- [ ] Add contributor section with Lee, Shawn, and I
+- [ ] Share with Lee, Shawn, Sam, & Tejas to get feedback
 
 ## Todos V2
 
