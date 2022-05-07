@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
 import Header from "../components/Header";
 
@@ -6,14 +7,27 @@ export default function Home() {
     <>
       <Head>
         <title>What is DevRel</title>
-        <meta name="description" content="DevRel explained" />
+        <meta
+          name="description"
+          content="All you need to know about DevRel and how to get into it."
+        />
       </Head>
-      <div className=" w-full bg-slate-50 scroll-smooth dark:bg-neutral-900">
+      <div className="w-full bg-slate-50 scroll-smooth dark:bg-neutral-900">
         <Header />
+        {/* <div className="flex justify-evenly w-full h-28 items-center">
+          <div className="bg-red-500">Hey</div>
+          <div className="bg-blue-500">to</div>
+          <div className="bg-purple-500">the</div>
+          <div className="bg-yellow-500">world</div>
+        </div> */}
         <div>
-          <div className="left">
+          {/* TODO: Do this smooth scrolling with a ref */}
+          <div
+            id="devrel-at-a-glance"
+            className="scroll-smooth hover:scroll-auto"
+          >
             <h1>DevRel at a glance</h1>
-            <p>DevRel is super hot rn and great, let's explore</p>
+            <p>DevRel is super hot rn and great, let us explore</p>
           </div>
 
           <div className="right">

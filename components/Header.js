@@ -22,10 +22,10 @@ export default function Header() {
         </div>
       </div>
       <a
-        title="Go to Understanding DevRel"
-        href="#understanding-devrel"
+        title="Go to DevRel at a glance"
+        href="#devrel-at-a-glance"
         aria-hidden="true"
-        className="absolute left-1/2 bottom-2 scroll-smooth hidden sm:block"
+        className="absolute left-1/2 bottom-2 scroll-smooth hidden -ml-4 lg:block"
       >
         <svg
           className="h-14 w-14 animate-pulse text-blue-500"
