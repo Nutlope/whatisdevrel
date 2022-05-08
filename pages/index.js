@@ -28,8 +28,8 @@ export default function Home() {
         <Header scrollHandler={scrollHandler} />
         <Summary setReftoElement={setReftoElement} />
         <DevRelTypes />
-        {/* <Jobs />
-        <Resources /> */}
+        <Jobs />
+        {/* <Resources /> */}
         <Contributors />
         <ComingSoon />
       </div>

@@ -6,23 +6,28 @@ export default function Summary({ setReftoElement }) {
     <div className="text-center">
       <h1
         ref={setReftoElement}
-        className="text-left text-4xl font-bold sm:text-7xl"
+        className="text-left text-4xl font-bold md:text-7xl"
       >
         {" "}
         DevRel at a glance
       </h1>
-      <div className="flex flex-col md:flex-row">
-        <div className="left p-6 pl-0 text-left">
+      <div className="flex flex-col lg:flex-row">
+        <div className="p-6 pl-0 text-left">
           <p className="mt-5 mb-5">
             DevRel, also known as Developer Relations or Developer Advocacy, is
-            a job that is becoming increasingly in-demand. DevRel is a role that
+            a job that is becoming increasingly in-demand. It's a role that
             exists at developer tool companies (companies whose target market is
-            developers). Developer Advocates help raise awareness for a product
-            and collect feedback from the dev community to improve it.
+            developers). Developer Advocates{" "}
+            <span className="underline decoration-blue-500 underline-offset-4">
+              help educate developers on a specific product or technology
+            </span>{" "}
+            through building community, creating content, and improving the
+            developer experience of a product .
           </p>
           <p>
             {" "}
-            Let's explore the{" "}
+            Now that we've learned what developer advocates do, let's explore
+            the{" "}
             <span className="rounded-md bg-blue-500 px-1">
               3 types of DevRels
             </span>
@@ -32,9 +37,9 @@ export default function Summary({ setReftoElement }) {
             <span className="rounded-md bg-blue-500 px-1">resources</span>.
           </p>
         </div>
-        <div className="right">
+        <div className="">
           <Image
-            src="/pillars.jpeg"
+            src="/typesdevrel.jpeg"
             className="mt-4"
             alt="the 3 pillars of DevRel"
             width="2200"
@@ -43,7 +48,6 @@ export default function Summary({ setReftoElement }) {
         </div>
       </div>
 
-      {/* TODO: Grab icons and link these out */}
       {/* <div className="mb-4 grid grid-cols-1 gap-3 lg:grid-cols-3">
         <a
           className="hover:bg-secondary h-full rounded border p-3"

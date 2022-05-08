@@ -28,12 +28,6 @@ export default function Header({ scrollHandler }) {
           Get started
         </a>
       </div>
-      {/* <div className="flex h-28 w-full items-center justify-evenly">
-        <div className="bg-red-500">Hey</div>
-        <div className="bg-blue-500">to</div>
-        <div className="bg-purple-500">the</div>
-        <div className="bg-yellow-500">world</div>
-      </div> */}
     </header>
   );
 }
