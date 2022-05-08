@@ -34,9 +34,9 @@ export default function Home() {
         <Header scrollHandler={scrollHandler} />
         <Summary setReftoElement={setReftoElement} />
         <DevRelTypes />
-        <Jobs />
+        {/* <Jobs />
         <Resources />
-        <Contributors />
+        <Contributors /> */}
       </div>
     </>
   );

@@ -1,19 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 
-// TODO: Add line height of 1.5
-// TODO: Make the ref scroll with some margin and not exactly on the h1
-// TODO: Get the picture I did remade with a matching color scheme and transparent background
-// TODO: Move the picture down to match the paragraphs
-
 export default function Summary({ setReftoElement }) {
   return (
     <div className="text-center">
+      <h1
+        ref={setReftoElement}
+        className="text-left text-4xl font-bold sm:text-7xl"
+      >
+        {" "}
+        DevRel at a glance
+      </h1>
       <div className="flex flex-col md:flex-row">
-        <div className="left">
-          <h1 ref={setReftoElement} className="text-4xl font-bold sm:text-7xl">
-            {" "}
-            DevRel at a glance
-          </h1>
+        <div className="left p-6 pl-0 text-left">
           <p className="mt-5 mb-5">
             DevRel, also known as Developer Relations or Developer Advocacy, is
             a job that is becoming increasingly in-demand. DevRel is a role that
@@ -34,12 +32,12 @@ export default function Summary({ setReftoElement }) {
           </p>
         </div>
         <div className="right">
-          <img src="/pillars.jpeg" className="mb-5" />
+          <img src="/pillars.jpeg" className="mt-4" />
         </div>
       </div>
 
-      {/* TODO: Need to grab icons for those 4 boxes */}
-      <div className="mb-4 grid grid-cols-1 gap-3 lg:grid-cols-3">
+      {/* TODO: Grab icons and link these out */}
+      {/* <div className="mb-4 grid grid-cols-1 gap-3 lg:grid-cols-3">
         <a
           className="hover:bg-secondary h-full rounded border p-3"
           href="#somewhere"
@@ -67,7 +65,7 @@ export default function Summary({ setReftoElement }) {
             DevRel resources
           </h3>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }

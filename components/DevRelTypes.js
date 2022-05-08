@@ -129,7 +129,7 @@ export default function DevRelTypes() {
             </svg>
             <div className="space-y-2">
               <div className="space-y-1 text-lg font-medium leading-6">
-                <h3 className="text-white">The dev educator</h3>
+                <h3 className="text-white">The developer educator</h3>
                 <p className="text-indigo-400">Content</p>
               </div>
             </div>
@@ -198,28 +198,31 @@ export default function DevRelTypes() {
           </div>
         </li>
       </ul>
-      <h2>Community</h2>
+      <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
+        Community
+      </h2>
       <p>
         Community-focused DevRel usually centers around growing and managing a
         community of developers. This is typically a Slack or Discord community
         that's focused on a product or technology. Managing a community consists
         of greeting new members, answering questions, designing the community in
         an inclusive way, and making sure your members are getting value from
-        the community. This can also include livestreams, events, and other
-        activities that help the community grow. Being a technical community
-        builder is a very hot skill to have nowadays due to the shift developer
-        tool companies are making in the way they obtain their customers.
+        the community through activities like livestreams and events.
       </p>
 
-      <h2>Content</h2>
+      <h2 className="mb-4 mt-8 text-3xl font-bold tracking-tight sm:text-4xl">
+        Content
+      </h2>
       <p>
         Content-focused DevRel is about spreading awareness about a product
         through written and spoken content. This can involve writing blog posts,
         making videos, teaching workshops, recording podcasts, and more.
       </p>
 
-      <h2>Product</h2>
-      <p>
+      <h2 className="mb-4 mt-8  text-3xl font-bold tracking-tight sm:text-4xl">
+        Product
+      </h2>
+      <p className="mb-10">
         Product-focused DevRel is about owning the developer exeprience of the
         product. In other words, it's about improving how it feels for a
         developer to use a specific product. This can be done by talking to
