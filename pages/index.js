@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>What is DevRel</title>
+        <title>What is DevRel?</title>
         <meta
           name="description"
           content="All you need to know about DevRel and how to get into it."

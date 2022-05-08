@@ -22,6 +22,8 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [ ] Fix the picture that I have by asking a designer to redo it
 - [ ] Share with Lee, Shawn, Sam, & Tejas to get feedback
 - [ ] General layout and styling: devRelResources
+- [ ] Add analytics
+- [ ] Incorporate feedback from people
 
 ## Todos V2
 
