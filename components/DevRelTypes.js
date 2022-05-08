@@ -63,7 +63,7 @@ export default function DevRelTypes() {
             <div className="space-y-2">
               <div className="space-y-1 text-lg font-medium leading-6">
                 <h3 className="text-white">The community builder</h3>
-                <p className="text-indigo-400">Community</p>
+                <p className="text-blue-500">Community</p>
               </div>
             </div>
           </div>
@@ -130,7 +130,7 @@ export default function DevRelTypes() {
             <div className="space-y-2">
               <div className="space-y-1 text-lg font-medium leading-6">
                 <h3 className="text-white">The developer educator</h3>
-                <p className="text-indigo-400">Content</p>
+                <p className="text-blue-500">Content</p>
               </div>
             </div>
           </div>
@@ -192,7 +192,7 @@ export default function DevRelTypes() {
             <div className="space-y-2">
               <div className="space-y-1 text-lg font-medium leading-6">
                 <h3 className="text-white">The DX engineer </h3>
-                <p className="text-indigo-400">Product</p>
+                <p className="text-blue-500">Product</p>
               </div>
             </div>
           </div>
@@ -231,6 +231,9 @@ export default function DevRelTypes() {
         also extend to the product ecosystem so working on code examples,
         templates, and integrations is also common.
       </p>
+      <div className="mt-16 mb-16 w-full text-center text-5xl font-bold tracking-tight sm:text-6xl">
+        More sections <span className="text-blue-500">coming soon!</span>
+      </div>
     </>
   );
 }

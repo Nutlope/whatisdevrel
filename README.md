@@ -21,6 +21,7 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [ ] General layout and styling: devRelResources
 - [ ] General layout and styling: contributors (Lee, swyx, me)
 - [ ] Share with Lee, Shawn, Sam, & Tejas to get feedback
+- [ ] Add a footer
 
 ## Todos V2
 
