@@ -6,7 +6,7 @@ export default function Summary({ setReftoElement }) {
     <div className="text-center">
       <h1
         ref={setReftoElement}
-        className="text-left text-4xl font-bold md:text-7xl"
+        className="text-center text-5xl font-bold md:text-left md:text-7xl"
       >
         {" "}
         DevRel at a glance
