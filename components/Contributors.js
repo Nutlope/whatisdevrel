@@ -12,7 +12,7 @@ export default function Contributors() {
     },
     {
       name: "Shawn Wang",
-      role: "Temporal",
+      role: "DX Tips",
       imageUrl:
         "https://pbs.twimg.com/profile_images/1510319731466993664/tGoqnzGK_400x400.jpg",
       twitterUrl: "https://twitter.com/swyx",
@@ -28,7 +28,8 @@ export default function Contributors() {
     },
   ];
   return (
-    <div className="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
+    <div className="mx-auto max-w-7xl px-4  text-center sm:px-6">
+      <div className="mx-auto mt-14 max-w-2xl border-t border-blue-500 py-6 pt-6"></div>
       <div className="space-y-12">
         <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
           <h2 className="text-5xl font-extrabold tracking-tight sm:text-6xl">

@@ -27,14 +27,9 @@ export default function Summary({ setReftoElement }) {
           <p>
             {" "}
             Now that we've learned what developer advocates do, let's explore
-            the{" "}
-            <span className="rounded-md bg-blue-500 px-1">
-              3 types of DevRels
-            </span>
-            , how to{" "}
-            <span className="rounded-md bg-blue-500 px-1">get a job</span> doing
-            it, and some{" "}
-            <span className="rounded-md bg-blue-500 px-1">resources</span>.
+            the <span className="text-blue-500">3 types of DevRels</span>, how
+            to <span className="text-blue-500">get a job</span> doing it, and
+            some <span className="text-blue-500">resources</span>.
           </p>
         </div>
         <div className="">

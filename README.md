@@ -19,14 +19,14 @@ Essentially use the content from my devrel blog post and devrel repo.
 ## Todos V1
 - [x] General layout and styling: contributors (Lee, swyx, me)
 - [x] Add an OG Image
-- [ ] General layout and styling: jobs
-- [ ] General layout and styling: devRelResources
-- [ ] Share with Lee, Shawn, Sam, & Tejas to get feedback
+- [x] General layout and styling: jobs
+- [x] Share with Lee, Shawn, Sam, & Tejas to get feedback
   - [ ] Incorporate their feedback & add contributors
-- [ ] Fix the pillars picture by making it nicer + match color scheme
+- [ ] General layout and styling: devRelResources
+- [ ] Use static tweet in the jobs section instead of image
 - [ ] General layout and styling: revue newsletter section
-- [ ] Link my tweet in the jobs section
 - [ ] Add analytics
+- [ ] Fix the pillars picture by making it nicer + match color scheme
 
 ## Todos V2
 - [ ] Add a footer

@@ -3,10 +3,10 @@ import Header from "../components/Header";
 import Summary from "../components/Summary";
 import DevRelTypes from "../components/DevRelTypes";
 import Jobs from "../components/Jobs";
-import Resources from "../components/Resources";
 import Contributors from "../components/Contributors";
 import ComingSoon from "../components/ComingSoon";
 import MetaHead from "../components/MetaHead";
+import Resources from "../components/Resources";
 import Newsletter from "../components/Newsletter";
 
 export default function Home() {
@@ -31,7 +31,7 @@ export default function Home() {
         <DevRelTypes />
         <Jobs />
         {/* <Resources /> */}
-        {/* <Contributors /> */}
+        <Contributors />
         {/* <Newsletter /> */}
         <ComingSoon />
       </div>
