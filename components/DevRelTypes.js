@@ -229,7 +229,7 @@ export default function DevRelTypes() {
       <h2 className="mb-4 mt-8  text-3xl font-bold tracking-tight sm:text-4xl">
         Product
       </h2>
-      <p className="mb-10">
+      <p className="">
         Product-focused DevRel is about owning the developer exeprience of the
         product. It's about improving how it feels for a developer to use a
         specific product. This can be done by talking to users to understand how
@@ -238,9 +238,6 @@ export default function DevRelTypes() {
         product ecosystem so working on code examples, templates, and
         integrations is also common.
       </p>
-      <div className="mt-16 mb-16 w-full text-center text-5xl font-bold tracking-tight sm:text-6xl">
-        More sections <span className="text-blue-500">coming soon!</span>
-      </div>
     </>
   );
 }

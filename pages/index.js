@@ -6,6 +6,7 @@ import DevRelTypes from "../components/DevRelTypes";
 import Jobs from "../components/Jobs";
 import Resources from "../components/Resources";
 import Contributors from "../components/Contributors";
+import ComingSoon from "../components/ComingSoon";
 
 export default function Home() {
   // The two functions below are used to smoothly scroll to the first header
@@ -35,8 +36,9 @@ export default function Home() {
         <Summary setReftoElement={setReftoElement} />
         <DevRelTypes />
         {/* <Jobs />
-        <Resources />
-        <Contributors /> */}
+        <Resources /> */}
+        <Contributors />
+        <ComingSoon />
       </div>
     </>
   );
