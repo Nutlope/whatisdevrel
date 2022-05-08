@@ -4,6 +4,6 @@
 
 @layer base {
     body {
-        @apply bg-neutral-900;
+        @apply bg-neutral-900 leading-relaxed text-lg;
     }
 }

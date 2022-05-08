@@ -4,8 +4,6 @@
 // TODO: Make the ref scroll with some margin and not exactly on the h1
 // TODO: Get the picture I did remade with a matching color scheme and transparent background
 // TODO: Move the picture down to match the paragraphs
-// TODO: Increase font size of paragraphs
-// TODO: Restrict width of everything
 
 export default function Summary({ setReftoElement }) {
   return (
@@ -41,16 +39,7 @@ export default function Summary({ setReftoElement }) {
       </div>
 
       {/* TODO: Need to grab icons for those 4 boxes */}
-      <div className="mb-4 grid grid-cols-1 gap-3 lg:grid-cols-2">
-        <a
-          className="hover:bg-secondary h-full rounded border p-3"
-          href="#somewhere"
-        >
-          <div className="inline-block h-[24px] w-[24px]">SVG </div>
-          <h3 className="text-primary mb-sm text-lg font-semibold">
-            What is DevRel?
-          </h3>
-        </a>
+      <div className="mb-4 grid grid-cols-1 gap-3 lg:grid-cols-3">
         <a
           className="hover:bg-secondary h-full rounded border p-3"
           href="#somewhere"

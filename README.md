@@ -16,10 +16,9 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [ ] General layout and styling: Summary
   - [ ] Grab 4 SVG icons for the 4 boxes
   - [ ] Address all TODOs
-- [ ] General layout and styling: whatisDevRel
 - [ ] General layout and styling: 3typesofDevRel
 - [ ] General layout and styling: devRelResources
-- [ ] Add contributor section with Lee, Shawn, and I
+- [ ] General layout and styling: contributors (Lee, swyx, me)
 - [ ] Share with Lee, Shawn, Sam, & Tejas to get feedback
 
 ## Todos V2
