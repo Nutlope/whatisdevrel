@@ -17,16 +17,15 @@ Essentially use the content from my devrel blog post and devrel repo.
   - [x] Address all TODOs
 
 ## Todos V1
-- [ ] General layout and styling: contributors (Lee, swyx, me)
-- [ ] Get an OG image made
-- [ ] Fix the pillars picture by making it nicer + match color scheme
+- [x] General layout and styling: contributors (Lee, swyx, me)
+- [x] Add an OG Image
+- [ ] General layout and styling: devRelResources
+- [ ] General layout and styling: jobs
 - [ ] Share with Lee, Shawn, Sam, & Tejas to get feedback
   - [ ] Incorporate their feedback & add contributors
-- [ ] General layout and styling: devRelResources
+- [ ] Fix the pillars picture by making it nicer + match color scheme
 - [ ] General layout and styling: revue newsletter section
-- [ ] General layout and styling: jobs
 - [ ] Add analytics
-- [ ] Tweet & tag contributors
 
 ## Todos V2
 - [ ] Add a footer
