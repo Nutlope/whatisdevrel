@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Image from "next/image";
 
 export default function Summary({ setReftoElement }) {
   return (
@@ -32,7 +33,13 @@ export default function Summary({ setReftoElement }) {
           </p>
         </div>
         <div className="right">
-          <img src="/pillars.jpeg" className="mt-4" />
+          <Image
+            src="/pillars.jpeg"
+            className="mt-4"
+            alt="the 3 pillars of DevRel"
+            width="2200"
+            height="1200"
+          />
         </div>
       </div>
 
