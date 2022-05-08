@@ -20,15 +20,15 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [x] General layout and styling: contributors (Lee, swyx, me)
 - [x] Add an OG Image
 - [x] General layout and styling: jobs
-- [x] Share with Lee, Shawn, Sam, & Tejas to get feedback
-  - [ ] Incorporate their feedback & add contributors
-- [ ] General layout and styling: devRelResources
+- [x] Share with team + others to get feedback
+- [ ] Implement Lee's feedback
+- [ ] Incorporate feedback from contributors
+- [ ] Add section: devRelResources
 - [ ] Use static tweet in the jobs section instead of image
-- [ ] General layout and styling: revue newsletter section
+- [ ] Fix pillars picture by making it nicer + match color scheme
 - [ ] Add analytics
-- [ ] Fix the pillars picture by making it nicer + match color scheme
 
 ## Todos V2
-- [ ] Add a footer
-- [ ] Add those 3 boxes in summary
+- [ ] Add section: revue newsletter section
+- [ ] Add those 3 boxes in summary section
 - [ ] When job board is done, link to it

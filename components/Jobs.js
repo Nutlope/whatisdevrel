@@ -94,13 +94,7 @@ export default function Jobs() {
         >
           DM me on Twitter
         </a>{" "}
-        and I can try to connect you to other startups! We're also{" "}
-        <a
-          className="font-bold underline"
-          href="https://leerob.io/blog/devrel-at-vercel#growing-devrel-teams"
-        >
-          hiring at Vercel!
-        </a>
+        and I can try to connect you to other startups!
       </p>
     </div>
   );
