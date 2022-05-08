@@ -19,16 +19,16 @@ Essentially use the content from my devrel blog post and devrel repo.
 ## Todos V1
 - [ ] General layout and styling: contributors (Lee, swyx, me)
 - [ ] Get an OG image made
-- [ ] Fix the picture that I have by asking a designer to redo it
+- [ ] Fix the pillars picture by making it nicer + match color scheme
 - [ ] Share with Lee, Shawn, Sam, & Tejas to get feedback
+  - [ ] Incorporate their feedback & add contributors
 - [ ] General layout and styling: devRelResources
+- [ ] General layout and styling: revue newsletter section
+- [ ] General layout and styling: jobs
 - [ ] Add analytics
-- [ ] Incorporate feedback from people
+- [ ] Tweet & tag contributors
 
 ## Todos V2
-
 - [ ] Add a footer
 - [ ] Add those 3 boxes in summary
-- [ ] Add newsletter
 - [ ] When job board is done, link to it
-- [ ] Maybe add a section for what DevRel is at Vercel authored by Lee

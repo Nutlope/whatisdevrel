@@ -5,6 +5,11 @@ export default function DevRelTypes() {
       <div className="mt-8 w-full text-5xl font-bold tracking-tight sm:text-6xl">
         The 3 types of DevRels
       </div>
+      <p className="mt-4">
+        While I'll be discussing 3 types of DevRels, many developer advocates do
+        a mix of these. It's important to remember that these aren't always
+        individual jobs.{" "}
+      </p>
       <ul className="my-10 space-y-4 sm:grid sm:grid-cols-1 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
         <li className="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10">
           <div className="space-y-6 xl:space-y-10">
@@ -202,12 +207,12 @@ export default function DevRelTypes() {
         Community
       </h2>
       <p>
-        Community-focused DevRel usually centers around growing and managing a
-        community of developers. This is typically a Slack or Discord community
-        that's focused on a product or technology. Managing a community consists
-        of greeting new members, answering questions, designing the community in
-        an inclusive way, and making sure your members are getting value from
-        the community through activities like livestreams and events.
+        Community-focused DevRel centers around growing and managing a community
+        of developers. This is usually a Slack or Discord community that's
+        focused on a company's product or an open source technology. Managing a
+        community consists of answering questions, designing the community in an
+        inclusive way, and making sure members are getting value through
+        activities like livestreams and other events.
       </p>
 
       <h2 className="mb-4 mt-8 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -216,7 +221,9 @@ export default function DevRelTypes() {
       <p>
         Content-focused DevRel is about spreading awareness about a product
         through written and spoken content. This can involve writing blog posts,
-        making videos, teaching workshops, recording podcasts, and more.
+        making videos, teaching workshops, recording podcasts, tweeting and
+        more. Content can be an SEO play focused on the long term or be a short
+        term promotion like new feature launches.
       </p>
 
       <h2 className="mb-4 mt-8  text-3xl font-bold tracking-tight sm:text-4xl">
@@ -224,12 +231,12 @@ export default function DevRelTypes() {
       </h2>
       <p className="mb-10">
         Product-focused DevRel is about owning the developer exeprience of the
-        product. In other words, it's about improving how it feels for a
-        developer to use a specific product. This can be done by talking to
-        users to understand how they're using it, then making improvements to
-        the documentation and creating guides based on their answers. This can
-        also extend to the product ecosystem so working on code examples,
-        templates, and integrations is also common.
+        product. It's about improving how it feels for a developer to use a
+        specific product. This can be done by talking to users to understand how
+        they're using it, then making improvements to the documentation and
+        creating guides based on their answers. This can also extend to the
+        product ecosystem so working on code examples, templates, and
+        integrations is also common.
       </p>
       <div className="mt-16 mb-16 w-full text-center text-5xl font-bold tracking-tight sm:text-6xl">
         More sections <span className="text-blue-500">coming soon!</span>
