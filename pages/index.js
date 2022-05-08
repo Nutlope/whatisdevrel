@@ -7,6 +7,7 @@ import Resources from "../components/Resources";
 import Contributors from "../components/Contributors";
 import ComingSoon from "../components/ComingSoon";
 import MetaHead from "../components/MetaHead";
+import Newsletter from "../components/Newsletter";
 
 export default function Home() {
   let ref = useRef();
@@ -29,6 +30,7 @@ export default function Home() {
         <Summary setReftoElement={setReftoElement} />
         <DevRelTypes />
         <Jobs />
+        {/* <Newsletter /> */}
         {/* <Resources /> */}
         <Contributors />
         <ComingSoon />
