@@ -14,22 +14,25 @@ export default function Summary({ setReftoElement }) {
       <div className="flex flex-col lg:flex-row">
         <div className="p-6 pl-0 text-left">
           <p className="mt-5 mb-5">
+            If you've been hearing about DevRel and are confused what it means
+            and how to get a job doing it, this website is for you. We're going
+            to define DevRel, explore the 3 pillars of DevRel, discuss how to
+            get a job doing it{" "}
+            <span className="italic">
+              (and share companies hiring each month)
+            </span>
+            , and end with some resources and advice for aspiring and beginner
+            DevRels.
+          </p>
+          <p>
             DevRel, also known as Developer Relations or Developer Advocacy, is
-            a job that is becoming increasingly in-demand. It's a role that
-            exists at developer tool companies (companies whose target market is
-            developers). Developer Advocates{" "}
+            a role that exists at developer tool companies (companies whose
+            target market is developers). Developer Advocates{" "}
             <span className="underline decoration-blue-500 underline-offset-4">
               help educate developers on a specific product or technology
             </span>{" "}
             through building community, creating content, and improving the
-            developer experience of a product .
-          </p>
-          <p>
-            {" "}
-            Now that we've learned what developer advocates do, let's explore
-            the <span className="text-blue-500">3 types of DevRels</span>, how
-            to <span className="text-blue-500">get a job</span> doing it, and
-            some <span className="text-blue-500">resources</span>.
+            developer experience of a product.
           </p>
         </div>
         <div className="">
@@ -42,36 +45,6 @@ export default function Summary({ setReftoElement }) {
           />
         </div>
       </div>
-
-      {/* <div className="mb-4 grid grid-cols-1 gap-3 lg:grid-cols-3">
-        <a
-          className="hover:bg-secondary h-full rounded border p-3"
-          href="#somewhere"
-        >
-          <div className="inline-block h-[24px] w-[24px]">SVG </div>
-          <h3 className="text-primary mb-sm text-lg font-semibold">
-            The 3 types of DevRel
-          </h3>
-        </a>
-        <a
-          className="hover:bg-secondary h-full rounded border p-3"
-          href="#somewhere"
-        >
-          <div className="inline-block h-[24px] w-[24px]">SVG </div>
-          <h3 className="text-primary mb-sm text-lg font-semibold">
-            How to get hired in DevRel
-          </h3>
-        </a>
-        <a
-          className="hover:bg-secondary h-full rounded border p-3"
-          href="#somewhere"
-        >
-          <div className="inline-block h-[24px] w-[24px]">SVG </div>
-          <h3 className="text-primary mb-sm text-lg font-semibold">
-            DevRel resources
-          </h3>
-        </a>
-      </div> */}
     </div>
   );
 }
