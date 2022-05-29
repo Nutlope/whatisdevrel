@@ -5,10 +5,10 @@ export default function DevRelPillars() {
       <div className="mx-auto max-w-4xl">
         <div className="mx-auto mt-14 max-w-2xl border-t border-blue-500 pt-6"></div>
         <div className="mt-4 mb-6 w-full text-center text-5xl font-bold tracking-tight sm:text-6xl">
-          The 3 pillars of DevRel
+          The 3 types of DevRel
         </div>
         <p className="mt-4 mb-4">
-          Let's talk about the 3 pillars of DevRels. Many developer advocates do{" "}
+          Let's talk about the 3 types of DevRels. Many developer advocates do{" "}
           <span className="italic">a mix of these</span> but tend to specialize
           in one or two. It's important to remember that these don't always map
           to individual jobs.{" "}
@@ -16,7 +16,7 @@ export default function DevRelPillars() {
       </div>
       <div className="mx-auto max-w-4xl text-left">
         <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-          Community
+          The Community Builder
         </h2>
         <p>
           Community-focused DevRel centers around growing and managing a
@@ -28,7 +28,7 @@ export default function DevRelPillars() {
         </p>
 
         <h2 className="mb-4 mt-8 text-3xl font-bold tracking-tight sm:text-4xl">
-          Content
+          The Developer Educator
         </h2>
         <p>
           Content-focused DevRel is about spreading awareness about a product
@@ -39,7 +39,7 @@ export default function DevRelPillars() {
         </p>
 
         <h2 className="mb-4 mt-8  text-3xl font-bold tracking-tight sm:text-4xl">
-          Product
+          The DX Engineer
         </h2>
         <p className="">
           Product-focused DevRel is about owning the developer exeprience of the

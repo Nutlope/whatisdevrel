@@ -23,7 +23,7 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [x] Share with team + others to get feedback
 - [x] Drop avatars
 - [x] Answer: Why should I care about this? Why should I come back here? Jobs?
-- [ ] Add section: devRelResources
+- [x] Add section: devRelResources
 - [ ] Add section: Advice for devrels (content pipeline + diff types of content)
 
 ### Cosmetic:
@@ -31,6 +31,7 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [ ] Use static tweet in the jobs section instead of image
 - [ ] Fix pillars picture by making it nicer + match color scheme
 - [ ] Simplify OG image with Lee's feedback
+- [ ] Make DevRel resources section have better margins and padding
 
 ## Todos V2
 - [ ] Add analytics
