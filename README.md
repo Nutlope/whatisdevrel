@@ -21,19 +21,19 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [x] Add an OG Image
 - [x] General layout and styling: jobs
 - [x] Share with team + others to get feedback
-- [ ] Implement Lee's feedback
-  - [x] Drop avatars
-  - [x] Answer: Why should I care about this? Why should I come back here? Jobs?
-  - [ ] Try monochrome color scheme + custom type face
-  - [ ] Add section: Advice for devrels (content pipeline + diff types of content)
-  - [ ] Simplify OG image with Lee's feedback
+- [x] Drop avatars
+- [x] Answer: Why should I care about this? Why should I come back here? Jobs?
 - [ ] Add section: devRelResources
+- [ ] Add section: Advice for devrels (content pipeline + diff types of content)
+
+### Cosmetic:
+- [ ] Try monochrome color scheme + custom type face
 - [ ] Use static tweet in the jobs section instead of image
 - [ ] Fix pillars picture by making it nicer + match color scheme
+- [ ] Simplify OG image with Lee's feedback
 
 ## Todos V2
 - [ ] Add analytics
 - [ ] Add section: revue newsletter section
 - [ ] Add those 3 boxes in summary section
   - [ ] Link the blue text in the summary section
-- [ ] When job board is done, link to it

@@ -86,15 +86,14 @@ export default function Jobs() {
       </p>
 
       <p className="mt-4 mb-8">
-        If you already have at least two of these skills with prior work, feel
-        free to{" "}
+        If you already have two of these skills with prior work, feel free to{" "}
         <a
           href="https://twitter.com/nutlope"
           className="font-bold text-blue-500 underline"
         >
           DM me on Twitter
         </a>{" "}
-        and I can try to connect you to other startups!
+        and I can try to connect you to startups that are hiring!
       </p>
     </div>
   );

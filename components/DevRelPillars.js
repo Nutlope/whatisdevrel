@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-export default function DevRelTypes() {
+export default function DevRelPillars() {
   return (
     <>
       <div className="mx-auto max-w-4xl">
