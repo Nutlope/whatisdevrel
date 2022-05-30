@@ -24,7 +24,7 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [x] Drop avatars
 - [x] Answer: Why should I care about this? Why should I come back here? Jobs?
 - [x] Add section: devRelResources
-- [ ] Add section: Advice for devrels (content pipeline + diff types of content)
+- [x] Add section: Advice for devrels (content pipeline + diff types of content)
 
 ### Cosmetic:
 - [ ] Try monochrome color scheme + custom type face
@@ -33,7 +33,7 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [ ] Simplify OG image with Lee's feedback
 - [ ] Make DevRel resources section have better margins and padding
 
-## Todos V2
+**## Todos V2
 - [ ] Add analytics
 - [ ] Send to Cami, Swyx, Lee
-- [ ] Add section: revue newsletter section
+- [ ] Add section: revue newsletter secti**on
