@@ -7,10 +7,10 @@ export default function Resources() {
       <h1 className="mt-4 mb-8 w-full text-center text-5xl font-bold tracking-tight sm:text-6xl">
         DevRel Resources
       </h1>
-      <div className="mt-6 grid gap-16 pt-6 text-blue-500 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12">
+      <div className="mt-6 grid gap-16 pt-6 text-center text-blue-500 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12">
         <div>
           <h2 className="mb-3 text-3xl text-white">Books </h2>
-          <ul className="ml-4 list-disc">
+          <ul className="ml-4 list-inside list-disc text-left">
             <li>
               <a href="https://www.amazon.com/Business-Value-Developer-Relations-Communities/dp/1484237471/ref=pd_sbs_1/137-5281060-5988909?pd_rd_w=j1ksT&pf_rd_p=f8e24c42-8be0-4374-84aa-bb08fd897453&pf_rd_r=5J80EP23D4HT23HFJA2K&pd_rd_r=fe52f5c1-5dcc-4f78-914f-126eac837a09&pd_rd_wg=jAKKa&pd_rd_i=1484237471&psc=1">
                 The Business Value of Developer Relations
@@ -33,7 +33,7 @@ export default function Resources() {
         </div>
         <div>
           <h2 className="mb-3 text-3xl text-white">Blogs </h2>
-          <ul className="ml-4 list-disc">
+          <ul className="ml-4 list-inside list-disc text-left">
             <li>
               <a href="https://www.swyx.io/ideas?filter=devrel">Swyx's blog</a>
             </li>
@@ -54,7 +54,7 @@ export default function Resources() {
         </div>
         <div>
           <h2 className="mb-3 text-3xl text-white">Articles </h2>
-          <ul className="ml-4 list-disc">
+          <ul className="ml-4 list-inside list-disc text-left">
             <li>
               <a href="https://dev.to/dabit3/7-tips-for-breaking-into-devrel-7jk">
                 7 tips for breaking into DevRel
@@ -79,7 +79,7 @@ export default function Resources() {
         </div>
         <div>
           <h2 className="mb-3 text-3xl text-white">Podcasts </h2>
-          <ul className="ml-4 list-disc">
+          <ul className="ml-4 list-inside list-disc text-left">
             <li>
               <a href="https://devrelrad.io/">DevRel Radio</a>
             </li>

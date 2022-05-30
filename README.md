@@ -25,15 +25,16 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [x] Answer: Why should I care about this? Why should I come back here? Jobs?
 - [x] Add section: devRelResources
 - [x] Add section: Advice for devrels (content pipeline + diff types of content)
+- [x] Add analytics
 
 ### Cosmetic:
-- [ ] Try monochrome color scheme + custom type face
 - [ ] Use static tweet in the jobs section instead of image
+- [ ] Try monochrome color scheme + custom type face
 - [ ] Fix pillars picture by making it nicer + match color scheme
 - [ ] Simplify OG image with Lee's feedback
-- [ ] Make DevRel resources section have better margins and padding
+- [ ] Make DevRel resources section have better margins and padding (ask riccardo)
 
 **## Todos V2
-- [ ] Add analytics
+
 - [ ] Send to Cami, Swyx, Lee
-- [ ] Add section: revue newsletter secti**on
+- [ ] Add section: revue newsletter section
