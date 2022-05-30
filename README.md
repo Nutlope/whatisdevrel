@@ -35,6 +35,5 @@ Essentially use the content from my devrel blog post and devrel repo.
 
 ## Todos V2
 - [ ] Add analytics
+- [ ] Send to Cami, Swyx, Lee
 - [ ] Add section: revue newsletter section
-- [ ] Add those 3 boxes in summary section
-  - [ ] Link the blue text in the summary section

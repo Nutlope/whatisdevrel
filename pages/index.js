@@ -31,7 +31,7 @@ export default function Home() {
         <DevRelPillars />
         <Jobs />
         <Resources />
-        {/* <Advice /> */}
+        <Advice />
         <Contributors />
         {/* <Newsletter /> */}
       </div>
