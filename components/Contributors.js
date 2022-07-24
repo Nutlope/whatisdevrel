@@ -11,20 +11,29 @@ export default function Contributors() {
       websiteUrl: "https://www.elmghari.com/",
     },
     {
-      name: "Shawn Wang",
-      role: "DX Tips",
-      imageUrl:
-        "https://pbs.twimg.com/profile_images/1510319731466993664/tGoqnzGK_400x400.jpg",
-      twitterUrl: "https://twitter.com/swyx",
-      websiteUrl: "https://swyx.io/",
-    },
-    {
       name: "Lee Robinson",
       role: "Vercel",
       imageUrl:
         "https://pbs.twimg.com/profile_images/1194080814688079872/6qhYKGKC_400x400.jpg",
       twitterUrl: "https://twitter.com/leeerob",
       websiteUrl: "https://leerob.io/",
+    },
+    {
+      name: "Camila Ramos",
+      role: "Edge & Node",
+      imageUrl:
+        "https://pbs.twimg.com/profile_images/1546136399593742337/rly9Gj4G_400x400.jpg",
+      twitterUrl: "https://twitter.com/camiinthisthang",
+      websiteUrl:
+        "https://www.youtube.com/channel/UCyEnr-lcCUavJzh0uodvG3w/videos",
+    },
+    {
+      name: "Shawn Wang",
+      role: "DX Tips",
+      imageUrl:
+        "https://pbs.twimg.com/profile_images/1510319731466993664/tGoqnzGK_400x400.jpg",
+      twitterUrl: "https://twitter.com/swyx",
+      websiteUrl: "https://swyx.io/",
     },
   ];
   return (
@@ -42,7 +51,7 @@ export default function Contributors() {
         </div>
         <ul
           role="list"
-          className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:max-w-5xl lg:grid-cols-3"
+          className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:max-w-5xl lg:grid-cols-4"
         >
           {contributors.map((person) => (
             <li key={person.name}>
