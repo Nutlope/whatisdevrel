@@ -45,8 +45,7 @@ export default function Contributors() {
             Contributors
           </h2>
           <p className="text-xl text-gray-500">
-            This content has been created and reviewed by the following great
-            people.
+            This content has been created and reviewed by the following people.
           </p>
         </div>
         <ul

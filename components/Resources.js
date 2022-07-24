@@ -33,9 +33,9 @@ export default function Resources() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="flex flex-col">
           <h2 className="mb-3 text-3xl text-white">Blogs </h2>
-          <ul className="ml-20 list-inside list-disc text-left">
+          <ul className="flex list-inside list-disc flex-col self-center text-left">
             <li>
               <a href="https://www.swyx.io/ideas?filter=devrel">Swyx's blog</a>
             </li>
@@ -54,9 +54,9 @@ export default function Resources() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="flex flex-col">
           <h2 className="mb-3 text-3xl text-white">Articles </h2>
-          <ul className="ml-20 list-inside list-disc text-left">
+          <ul className="flex list-inside list-disc flex-col self-center text-left">
             <li>
               <a href="https://dev.to/dabit3/7-tips-for-breaking-into-devrel-7jk">
                 7 tips for breaking into DevRel
@@ -79,9 +79,9 @@ export default function Resources() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="flex flex-col">
           <h2 className="mb-3 text-3xl text-white">Podcasts </h2>
-          <ul className="ml-20 list-inside list-disc text-left">
+          <ul className="flex list-inside list-disc flex-col self-center text-left">
             <li>
               <a href="https://devrelrad.io/">DevRel Radio</a>
             </li>
