@@ -29,7 +29,10 @@ Essentially use the content from my devrel blog post and devrel repo.
 
 ## Todos V1.5 (cosmetic)
 - [x] Fix OG image
-- [ ] Fix small appearances and margins on mobile + desktop
+- [ ] Fix small appearances and margins on desktop
+  - [ ] Think about how to better structure "Advice for DevRels" section's text
+- [ ] Fix small appearances and margins on mobile
+- [ ] Add cami as a contributor
 
 ## Todos V2 (mostly cosmetic)
 - [ ] Try monochrome color scheme + custom type face
