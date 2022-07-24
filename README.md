@@ -27,11 +27,15 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [x] Add section: Advice for devrels (content pipeline + diff types of content)
 - [x] Add analytics
 
+## Todos V1.5 (cosmetic)
+- [x] Fix OG image
+- [ ] Fix small appearances and margins on mobile + desktop
+
 ## Todos V2 (mostly cosmetic)
-- [ ] Use static tweet in the jobs section instead of image
 - [ ] Try monochrome color scheme + custom type face
+- [ ] Use static tweet in the jobs section instead of image
 - [ ] Fix pillars picture by making it nicer + match color scheme
 - [ ] Simplify OG image with Lee's feedback
-- [ ] Make DevRel resources section have better margins and padding (ask Riccardo)
-- [ ] Send to Cami, Swyx, Lee
+
+## Todos V3:
 - [ ] Add section: revue newsletter section

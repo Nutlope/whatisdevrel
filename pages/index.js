@@ -1,13 +1,12 @@
 import { useRef } from "react";
-import Header from "../components/Header";
-import Summary from "../components/Summary";
-import DevRelPillars from "../components/DevRelPillars";
-import Jobs from "../components/Jobs";
+import Advice from "../components/Advice";
 import Contributors from "../components/Contributors";
+import DevRelPillars from "../components/DevRelPillars";
+import Header from "../components/Header";
+import Jobs from "../components/Jobs";
 import MetaHead from "../components/MetaHead";
 import Resources from "../components/Resources";
-import Newsletter from "../components/Newsletter";
-import Advice from "../components/Advice";
+import Summary from "../components/Summary";
 
 export default function Home() {
   let ref = useRef();
