@@ -29,10 +29,9 @@ export default function Home() {
         <Summary setReftoElement={setReftoElement} />
         <DevRelPillars />
         <Jobs />
-        <Resources />
         <Advice />
+        <Resources />
         <Contributors />
-        {/* <Newsletter /> */}
       </div>
     </>
   );

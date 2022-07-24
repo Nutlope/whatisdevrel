@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from "next/image";
 import {
-  LightningBoltIcon,
-  CodeIcon,
   CloudIcon,
+  CodeIcon,
+  LightningBoltIcon,
 } from "@heroicons/react/outline";
+import Image from "next/image";
 
 export default function Jobs() {
   const skills = [

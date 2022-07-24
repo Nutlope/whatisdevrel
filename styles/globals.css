@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-        @apply bg-neutral-900 leading-relaxed text-lg;
-    }
+  body {
+    @apply bg-neutral-900 text-lg leading-relaxed;
+  }
 }

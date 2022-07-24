@@ -40,6 +40,13 @@ export default function Summary({ setReftoElement }) {
               width="2200"
               height="1200"
             />
+            {/* <Image
+              src="/pillarsofdevrel_updated.png"
+              className="mt-4"
+              alt="the 3 pillars of DevRel"
+              width="2070"
+              height="1179"
+            /> */}
           </div>
         </div>
       </div>
