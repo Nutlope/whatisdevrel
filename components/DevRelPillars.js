@@ -3,15 +3,15 @@ export default function DevRelPillars() {
   return (
     <>
       <div className="mx-auto max-w-4xl">
-        <div className="mx-auto mt-14 max-w-2xl border-t border-blue-500 pt-6"></div>
+        <div className="mx-auto mt-14 max-w-2xl border-t border-gray-500 pt-6"></div>
         <h1 className="mt-4 mb-6 w-full text-center text-5xl sm:text-6xl">
           The 3 types of DevRel
         </h1>
         <p className="mt-4 mb-4">
-          Let's talk about the 3 types of DevRels. Many developer advocates do{" "}
+          Let's talk about the 3 types of DevRel: Community, Content, and
+          Product. Many developer advocates do{" "}
           <span className="italic">a mix of these</span> but tend to specialize
-          in one or two. It's important to remember that these don't always map
-          to individual jobs.{" "}
+          in one or two.{" "}
         </p>
       </div>
       <div className="mx-auto max-w-4xl text-left">

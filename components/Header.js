@@ -7,26 +7,23 @@ export default function Header({ scrollHandler }) {
           <span className="globalHeading text-5xl font-extrabold tracking-tight sm:text-8xl">
             whatisdevrel
           </span>
-          <span className="globalHeading text-3xl font-semibold tracking-tighter !text-blue-500 sm:text-5xl">
+          <span className="globalHeading !specialColor text-3xl font-semibold tracking-tighter sm:text-5xl">
             .com
           </span>
         </h3>
         <div className="mt-1 mb-6">
           <h3 className="py-3 px-8 text-xl font-normal text-gray-300 md:text-2xl">
-            All you need to know about{" "}
-            <span className="text-blue-500">DevRel</span> and how to get into
-            it.
+            All you need to know about devrel and how to get into it.
           </h3>
         </div>
-        <a
+        <button
           title="Go to DevRel at a glance"
           onClick={scrollHandler}
           aria-hidden="true"
-          className="mx-12 flex cursor-pointer items-center justify-center rounded-md border border-transparent bg-blue-500 px-8 py-3 font-medium hover:bg-blue-700 md:px-10 md:text-lg"
+          className="mx-auto flex w-9/12 cursor-pointer items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 font-medium text-black hover:bg-gray-200 md:px-10 md:text-lg"
         >
-          {" "}
-          Get started
-        </a>
+          Get started →
+        </button>
       </div>
     </header>
   );

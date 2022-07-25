@@ -30,7 +30,7 @@ export default function Jobs() {
 
   return (
     <div className="mx-auto mt-10 max-w-4xl">
-      <div className="mx-auto mt-14 max-w-2xl border-t border-blue-500 pt-6"></div>
+      <div className="mx-auto mt-14 max-w-2xl border-t border-gray-500 pt-6"></div>
       <h1 className="mt-4 mb-8 w-full text-center text-5xl sm:text-6xl">
         Getting a job in DevRel
       </h1>
@@ -60,7 +60,7 @@ export default function Jobs() {
           {skills.map((skill) => (
             <div key={skill.name} className="relative">
               <dt>
-                <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-blue-500 text-white">
+                <div className="absolute flex h-12 w-12 items-center justify-center rounded-md  border text-white">
                   <skill.icon className="h-6 w-6" aria-hidden="true" />
                 </div>
                 <p className="ml-16 text-lg font-medium leading-6">
@@ -87,10 +87,7 @@ export default function Jobs() {
 
       <p className="mt-4 mb-8">
         If you already have two of these skills with prior work, feel free to{" "}
-        <a
-          href="https://twitter.com/nutlope"
-          className="font-bold text-blue-500 underline"
-        >
+        <a href="https://twitter.com/nutlope" className="font-medium underline">
           DM me on Twitter
         </a>{" "}
         and I can try to connect you to startups that are hiring!

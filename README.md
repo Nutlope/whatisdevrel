@@ -37,9 +37,12 @@ Essentially use the content from my devrel blog post and devrel repo.
 ## Todos V2 (cosmetic)
 - [x] Fix pillars picture by making it match the color scheme
 - [x] copy https://zed.dev/ fonts
-- [ ] copy https://zed.dev/ design/colors
+- [x] copy https://zed.dev/ design/colors
+
+
 - [ ] Simplify OG image with Lee's feedback
-- [ ] Make site OSS to contributions can happen
+- [ ] Add footer for people to submit PRs
+  - [ ] Clean up repo to make it OSS
 - [ ] Use static tweet in the jobs section instead of image
 - [ ] Make pillars picture look better (maybe svg?)
 - [ ] Make all contributor pics black and white

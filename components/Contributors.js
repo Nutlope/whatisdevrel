@@ -38,7 +38,7 @@ export default function Contributors() {
   ];
   return (
     <div className="mx-auto mb-10 max-w-7xl px-4 text-center sm:px-6">
-      <div className="mx-auto mt-14 max-w-2xl border-t border-blue-500 py-6 pt-6"></div>
+      <div className="mx-auto mt-14 max-w-2xl border-t border-gray-500 py-6 pt-6"></div>
       <div className="space-y-12">
         <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
           <h2 className="text-5xl sm:text-6xl">Contributors</h2>
