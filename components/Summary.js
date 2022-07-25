@@ -1,11 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 
-export default function Summary({ setReftoElement }) {
+export default function Summary() {
   return (
-    <div className="mx-auto max-w-3xl text-center">
-      <h1 ref={setReftoElement} className="text-5xl md:text-7xl">
-        DevRel at a glance
-      </h1>
+    <div className="mx-auto mt-10 max-w-3xl text-center md:mt-20">
+      <h1 className="text-5xl md:text-7xl">What is Developer Relations?</h1>
       <div className="flex">
         <div className="text-left">
           <p className="mt-5 mb-5">

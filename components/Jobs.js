@@ -59,7 +59,7 @@ export default function Jobs() {
           {skills.map((skill) => (
             <div key={skill.name} className="relative">
               <dt>
-                <div className="absolute flex h-12 w-12 items-center justify-center rounded-md  border text-white">
+                <div className="absolute flex h-12 w-12 items-center justify-center rounded-md border border-gray-700 text-white">
                   <skill.icon className="h-6 w-6" aria-hidden="true" />
                 </div>
                 <p className="ml-16 text-lg font-medium leading-6">
