@@ -20,3 +20,7 @@ Want to contribute resources or advice? Feel free to submit a PR!
 ---
 
 [![Powered by Vercel](/public/powered-by-vercel.svg 'Powered by Vercel')](https://vercel.com/?utm_source=trpc&utm_campaign=oss)
+
+
+- [ ] Add more padding for mobile view
+- [ ] Make the width a little smaller
