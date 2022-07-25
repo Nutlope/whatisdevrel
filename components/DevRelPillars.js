@@ -4,9 +4,9 @@ export default function DevRelPillars() {
     <>
       <div className="mx-auto max-w-4xl">
         <div className="mx-auto mt-14 max-w-2xl border-t border-blue-500 pt-6"></div>
-        <div className="mt-4 mb-6 w-full text-center text-5xl font-bold tracking-tight sm:text-6xl">
+        <h1 className="mt-4 mb-6 w-full text-center text-5xl sm:text-6xl">
           The 3 types of DevRel
-        </div>
+        </h1>
         <p className="mt-4 mb-4">
           Let's talk about the 3 types of DevRels. Many developer advocates do{" "}
           <span className="italic">a mix of these</span> but tend to specialize
@@ -15,7 +15,7 @@ export default function DevRelPillars() {
         </p>
       </div>
       <div className="mx-auto max-w-4xl text-left">
-        <h2 className="mb-4 text-3xl font-bold tracking-tight text-blue-500 sm:text-4xl">
+        <h2 className="mb-4 text-3xl tracking-tight sm:text-4xl">
           The Community Builder
         </h2>
         <p>
@@ -28,7 +28,7 @@ export default function DevRelPillars() {
           other events.
         </p>
 
-        <h2 className="mb-4 mt-8 text-3xl font-bold tracking-tight text-blue-500 sm:text-4xl">
+        <h2 className="mb-4 mt-8 text-3xl  tracking-tight sm:text-4xl">
           The Developer Educator
         </h2>
         <p>
@@ -40,7 +40,7 @@ export default function DevRelPillars() {
           new feature launches.
         </p>
 
-        <h2 className="mb-4 mt-8  text-3xl font-bold tracking-tight text-blue-500 sm:text-4xl">
+        <h2 className="mb-4 mt-8 text-3xl  tracking-tight sm:text-4xl">
           The DX Engineer
         </h2>
         <p className="">

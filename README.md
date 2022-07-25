@@ -35,8 +35,11 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [x] Fix small appearances and margins on mobile
 
 ## Todos V2 (cosmetic)
-- [ ] copy https://zed.dev/ design and fonts
-- [ ] Use static tweet in the jobs section instead of image
-- [ ] Fix pillars picture by making it match the color scheme
+- [x] Fix pillars picture by making it match the color scheme
+- [x] copy https://zed.dev/ fonts
+- [ ] copy https://zed.dev/ design/colors
 - [ ] Simplify OG image with Lee's feedback
 - [ ] Make site OSS to contributions can happen
+- [ ] Use static tweet in the jobs section instead of image
+- [ ] Make pillars picture look better (maybe svg?)
+- [ ] Make all contributor pics black and white

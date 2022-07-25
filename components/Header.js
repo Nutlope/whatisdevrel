@@ -3,20 +3,20 @@ export default function Header({ scrollHandler }) {
     //   TODO: Think about if I need the following to move to sm:
     <header className="relative pb-10 pt-20 text-center md:grid md:min-h-screen md:place-items-center md:px-6 md:pt-0">
       <div className="mx-auto max-w-max">
-        <div className="w-full">
-          <span className="text-5xl font-extrabold tracking-tight sm:text-8xl">
+        <h3 className="w-full">
+          <span className="globalHeading text-5xl font-extrabold tracking-tight sm:text-8xl">
             whatisdevrel
           </span>
-          <span className="text-3xl font-semibold tracking-tighter text-blue-500 sm:text-5xl">
+          <span className="globalHeading text-3xl font-semibold tracking-tighter !text-blue-500 sm:text-5xl">
             .com
           </span>
-        </div>
+        </h3>
         <div className="mt-1 mb-6">
-          <h1 className="py-3 px-8 text-xl font-normal italic text-gray-300 md:text-2xl">
+          <h3 className="py-3 px-8 text-xl font-normal text-gray-300 md:text-2xl">
             All you need to know about{" "}
             <span className="text-blue-500">DevRel</span> and how to get into
             it.
-          </h1>
+          </h3>
         </div>
         <a
           title="Go to DevRel at a glance"

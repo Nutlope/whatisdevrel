@@ -41,9 +41,7 @@ export default function Contributors() {
       <div className="mx-auto mt-14 max-w-2xl border-t border-blue-500 py-6 pt-6"></div>
       <div className="space-y-12">
         <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-          <h2 className="text-5xl font-extrabold tracking-tight sm:text-6xl">
-            Contributors
-          </h2>
+          <h2 className="text-5xl sm:text-6xl">Contributors</h2>
           <p className="text-xl text-gray-500">
             This content has been created and reviewed by the following people.
           </p>
@@ -64,8 +62,8 @@ export default function Contributors() {
                 />
                 <div className="space-y-2">
                   <div className="space-y-1 text-lg font-medium leading-6">
-                    <h3>{person.name}</h3>
-                    <p className="text-blue-500">{person.role}</p>
+                    <p>{person.name}</p>
+                    <p className="font-bold">{person.role}</p>
                   </div>
                   <ul role="list" className="flex justify-center space-x-5">
                     <li>

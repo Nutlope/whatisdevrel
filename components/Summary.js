@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Summary({ setReftoElement }) {
   return (
     <div className="mx-auto max-w-4xl text-center">
-      <h1 ref={setReftoElement} className="text-5xl font-bold md:text-7xl">
+      <h1 ref={setReftoElement} className="text-5xl md:text-7xl">
         {" "}
         DevRel at a glance
       </h1>

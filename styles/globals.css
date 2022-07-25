@@ -7,3 +7,29 @@
     @apply bg-neutral-900 text-lg leading-relaxed;
   }
 }
+
+* {
+  font-family: system-ui, -apple-system, blinkmacsystemfont, "segoe ui",
+    "helvetica neue", helvetica, ubuntu, roboto, sans-serif, "apple color emoji",
+    "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+  line-height: 1.625;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.globalHeading {
+  font-family: ui-serif, serif;
+  color: white;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+h1 {
+}

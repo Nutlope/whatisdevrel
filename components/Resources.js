@@ -6,10 +6,10 @@ export default function Resources() {
   return (
     <div className="mx-auto mt-10 max-w-4xl">
       <div className="mx-auto mt-14 max-w-2xl border-t border-blue-500 pt-6"></div>
-      <h1 className="mt-4 mb-8 w-full text-center text-5xl font-bold tracking-tight sm:text-6xl">
+      <h1 className="mt-4 mb-8 w-full text-center text-5xl sm:text-6xl">
         DevRel Resources
       </h1>
-      <div className="mt-6 grid gap-16 pt-6 text-center text-blue-500 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-12">
+      <div className="mt-6 grid gap-16 pt-6 text-center text-blue-500 md:grid-cols-2 md:gap-x-5 md:gap-y-12">
         <div className="flex flex-col">
           <h2 className="mb-3 text-3xl text-white">Books </h2>
           <ul className="flex list-inside list-disc flex-col self-center text-left">

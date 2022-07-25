@@ -31,7 +31,7 @@ export default function Jobs() {
   return (
     <div className="mx-auto mt-10 max-w-4xl">
       <div className="mx-auto mt-14 max-w-2xl border-t border-blue-500 pt-6"></div>
-      <h1 className="mt-4 mb-8 w-full text-center text-5xl font-bold tracking-tight sm:text-6xl">
+      <h1 className="mt-4 mb-8 w-full text-center text-5xl sm:text-6xl">
         Getting a job in DevRel
       </h1>
 
