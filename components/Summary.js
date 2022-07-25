@@ -4,11 +4,10 @@ export default function Summary({ setReftoElement }) {
   return (
     <div className="mx-auto max-w-3xl text-center">
       <h1 ref={setReftoElement} className="text-5xl md:text-7xl">
-        {" "}
         DevRel at a glance
       </h1>
       <div className="flex">
-        <div className="p-6 pl-0 text-left">
+        <div className="text-left">
           <p className="mt-5 mb-5">
             If you've been hearing about DevRel and are confused what it means
             and how to get a job doing it, this website is for you. We're going
