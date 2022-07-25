@@ -2,7 +2,7 @@ export default function ThreePillars() {
   return (
     <div className="container mx-auto max-w-6xl px-4">
       <div>
-        <div className="grid grid-cols-1 justify-evenly gap-10 pt-10 lg:grid-cols-3">
+        <div className="grid grid-cols-1 justify-evenly gap-10 pt-10 md:grid-cols-2 lg:grid-cols-3">
           <div className="w-full transform overflow-hidden rounded-lg text-center transition duration-200 ease-in hover:scale-105 hover:shadow-2xl">
             <div className="w-full border-b border-gray-800 py-5">
               <h2 className="text-3xl text-white">Community</h2>

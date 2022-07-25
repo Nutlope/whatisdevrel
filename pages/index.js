@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <MetaHead />
-      <div className="mx-auto max-w-7xl px-4">
+      <div className="mx-auto max-w-6xl px-4">
         <Header scrollHandler={scrollHandler} />
         <Summary setReftoElement={setReftoElement} />
         <DevRelPillars />

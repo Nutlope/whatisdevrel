@@ -4,7 +4,7 @@ import ThreePillars from "./ThreePillars";
 export default function DevRelPillars() {
   return (
     <>
-      <div className="mx-auto max-w-4xl">
+      <div className="mx-auto max-w-3xl">
         <div className="mx-auto mt-14 max-w-2xl border-t border-gray-500 pt-6"></div>
         <h1 className="mt-4 mb-6 w-full text-center text-5xl sm:text-6xl">
           The 3 types of DevRel
@@ -17,7 +17,7 @@ export default function DevRelPillars() {
         </p>
       </div>
       <ThreePillars />
-      <div className="mx-auto mt-10 max-w-4xl text-left">
+      <div className="mx-auto mt-10 max-w-3xl text-left">
         <h2 className="mb-4 text-3xl tracking-tight sm:text-4xl">
           The Community Builder
         </h2>

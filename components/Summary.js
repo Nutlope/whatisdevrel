@@ -2,7 +2,7 @@
 
 export default function Summary({ setReftoElement }) {
   return (
-    <div className="mx-auto max-w-4xl text-center">
+    <div className="mx-auto max-w-3xl text-center">
       <h1 ref={setReftoElement} className="text-5xl md:text-7xl">
         {" "}
         DevRel at a glance
