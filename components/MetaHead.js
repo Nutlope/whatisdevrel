@@ -17,7 +17,7 @@ export default function MetaHead() {
       <meta property="og:title" content="What is DevRel?" />
       <meta
         property="og:image"
-        content="https://www.whatisdevrel.com/ogimage.png"
+        content="https://www.whatisdevrel.com/ogimage_new.png"
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@nutlope" />
@@ -28,7 +28,7 @@ export default function MetaHead() {
       />
       <meta
         name="twitter:image"
-        content="https://www.whatisdevrel.com/ogimage.png"
+        content="https://www.whatisdevrel.com/ogimage_new.png"
       />
     </Head>
   );
