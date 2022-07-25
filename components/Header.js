@@ -7,9 +7,9 @@ export default function Header({ scrollHandler }) {
           whatisdevrel.com
         </h3>
         <div className="mt-1 mb-6">
-          <h3 className="py-3 px-8 text-xl font-normal text-gray-300 md:text-2xl">
+          <p className="py-3 px-8 text-xl font-normal md:text-2xl">
             All you need to know about devrel and how to get into it.
-          </h3>
+          </p>
         </div>
         <button
           title="Go to DevRel at a glance"

@@ -1,3 +1,5 @@
+import ThreePillars from "./ThreePillars";
+
 /* eslint-disable react/no-unescaped-entities */
 export default function DevRelPillars() {
   return (
@@ -14,7 +16,8 @@ export default function DevRelPillars() {
           in one or two.{" "}
         </p>
       </div>
-      <div className="mx-auto max-w-4xl text-left">
+      <ThreePillars />
+      <div className="mx-auto mt-10 max-w-4xl text-left">
         <h2 className="mb-4 text-3xl tracking-tight sm:text-4xl">
           The Community Builder
         </h2>

@@ -7,7 +7,7 @@ export default function Advice() {
       <h1 className="mt-4 mb-8 w-full text-center text-5xl sm:text-6xl">
         Advice for DevRels
       </h1>
-      <div>
+      <p>
         One of the hardest parts of DevRel is getting developer's attention.
         It's what every devtool company is competing for. So how do you get it?
         Let's look at some rules.
@@ -53,7 +53,7 @@ export default function Advice() {
               {"->"} conference talk pipeline.{" "}
             </li>
             <li>
-              <span className="font-bold">Have a "breakable toy".</span>
+              <span className="font-bold">Have a "breakable toy". </span>
               In other words, have a real app to try around new tech and be able
               to show metrics on new tools/changes. It should be small but real,
               like a workout tracker, meal planner, or note taking app. Ideally
@@ -61,7 +61,7 @@ export default function Advice() {
             </li>
           </ul>
         </div>
-      </div>
+      </p>
     </div>
   );
 }

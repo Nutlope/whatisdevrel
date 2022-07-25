@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply bg-neutral-900 text-lg leading-relaxed;
-  }
-}
-
 * {
   font-family: system-ui, -apple-system, blinkmacsystemfont, "segoe ui",
     "helvetica neue", helvetica, ubuntu, roboto, sans-serif;
@@ -26,6 +20,7 @@ h5 {
   color: white;
 }
 
-p {
+p,
+li {
   font-size: 1.25rem;
 }

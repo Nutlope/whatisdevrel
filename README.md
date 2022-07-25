@@ -40,8 +40,13 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [x] copy https://zed.dev/ design/colors
 - [x] Add footer for people to submit PRs
   - [x] Clean up repo to make it OSS
-
+- [x] Make pillars picture look better (use the right font and spacing)
+- [x] Make all contributor pics black and white
+- [x] Look over any old feedback of Lee's that I missed
 - [ ] Simplify OG image with Lee's feedback
-- [ ] Use static tweet in the jobs section instead of image
-- [ ] Make pillars picture look better (maybe svg?)
-- [ ] Make all contributor pics black and white
+- [ ] Clean up README and delete all these tasks
+
+## Todos V3 (add as issues)
+- [ ] Add a "Three types of content in DevRel" section
+- [ ] Use a static tweet in the jobs section instead of image
+- [ ] Add a newsletter for devrel and devrel jobs

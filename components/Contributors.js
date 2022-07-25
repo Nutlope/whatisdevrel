@@ -5,24 +5,21 @@ export default function Contributors() {
     {
       name: "Hassan El Mghari",
       role: "Vercel",
-      imageUrl:
-        "https://pbs.twimg.com/profile_images/1256749436941881344/5WV3lmDm_400x400.jpg",
+      imageUrl: "/hassan_grayscale.png",
       twitterUrl: "https://twitter.com/nutlope",
       websiteUrl: "https://www.elmghari.com/",
     },
     {
       name: "Lee Robinson",
       role: "Vercel",
-      imageUrl:
-        "https://pbs.twimg.com/profile_images/1194080814688079872/6qhYKGKC_400x400.jpg",
+      imageUrl: "/lee_grayscale.png",
       twitterUrl: "https://twitter.com/leeerob",
       websiteUrl: "https://leerob.io/",
     },
     {
       name: "Camila Ramos",
       role: "Edge & Node",
-      imageUrl:
-        "https://pbs.twimg.com/profile_images/1546136399593742337/rly9Gj4G_400x400.jpg",
+      imageUrl: "/cami_grayscale.png",
       twitterUrl: "https://twitter.com/camiinthisthang",
       websiteUrl:
         "https://www.youtube.com/channel/UCyEnr-lcCUavJzh0uodvG3w/videos",
@@ -30,8 +27,7 @@ export default function Contributors() {
     {
       name: "Shawn Wang",
       role: "DX Tips",
-      imageUrl:
-        "https://pbs.twimg.com/profile_images/1510319731466993664/tGoqnzGK_400x400.jpg",
+      imageUrl: "/swyx_grayscale.png",
       twitterUrl: "https://twitter.com/swyx",
       websiteUrl: "https://swyx.io/",
     },
@@ -42,7 +38,7 @@ export default function Contributors() {
       <div className="space-y-12">
         <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
           <h2 className="text-5xl sm:text-6xl">Contributors</h2>
-          <p className="text-xl text-gray-500">
+          <p className="text-xl ">
             This content has been created and reviewed by the following people.
           </p>
         </div>
@@ -57,13 +53,13 @@ export default function Contributors() {
                   className="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56"
                   src={person.imageUrl}
                   alt=""
-                  width="200"
-                  height="200"
+                  width="180"
+                  height="180"
                 />
                 <div className="space-y-2">
                   <div className="space-y-1 text-lg font-medium leading-6">
-                    <p>{person.name}</p>
-                    <p className="font-bold">{person.role}</p>
+                    <p className="font-medium">{person.name}</p>
+                    <div className="">{person.role}</div>
                   </div>
                   <ul role="list" className="flex justify-center space-x-5">
                     <li>

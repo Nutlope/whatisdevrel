@@ -4,7 +4,6 @@ import {
   CodeIcon,
   LightningBoltIcon,
 } from "@heroicons/react/outline";
-import Image from "next/image";
 
 export default function Jobs() {
   const skills = [
@@ -34,14 +33,14 @@ export default function Jobs() {
       <h1 className="mt-4 mb-8 w-full text-center text-5xl sm:text-6xl">
         Getting a job in DevRel
       </h1>
-
       <p>
         As mentioned, the job market for devrels is very hot right now. I have
         startups that message me every week asking if I know any good developer
-        advocates, so there is a big need in the market right now.
+        advocates, so there is a big need in the market right now. I'm going to
+        be posting a list of companies that are hiring in this section each
+        month, starting on August 1st.
       </p>
-
-      <div className="mx-auto mb-6 mt-6 text-center">
+      {/* <div className="mx-auto mb-6 mt-6 text-center">
         <a href="https://twitter.com/nutlope/status/1440814837542514703">
           <Image
             src="/hotmarket.png"
@@ -50,11 +49,11 @@ export default function Jobs() {
             height="500"
           />
         </a>
-      </div>
-
-      <div className="mt-10 mb-8">
+      </div> */}
+      <div className="mt-5 mb-8">
         <p className="mb-6">
-          It's important to show that you have some of these three skills below:
+          When applying for developer advocate roles, it's important to show
+          that you have some of these three skills below:
         </p>
         <dl className="space-y-10 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10 md:space-y-0">
           {skills.map((skill) => (
@@ -74,7 +73,6 @@ export default function Jobs() {
           ))}
         </dl>
       </div>
-
       <p>
         While there aren't pre-requisites for the job, it's{" "}
         <span className="italic">very helpful</span> to have prior work in these
@@ -84,7 +82,6 @@ export default function Jobs() {
         work. Ultimately, this is a role for engineers who enjoy working with
         developers, creating content, and managing communities.
       </p>
-
       <p className="mt-4 mb-8">
         If you already have two of these skills with prior work, feel free to{" "}
         <a href="https://twitter.com/nutlope" className="font-medium underline">

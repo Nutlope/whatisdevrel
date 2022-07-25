@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from "next/image";
 
 export default function Summary({ setReftoElement }) {
   return (
@@ -31,22 +30,6 @@ export default function Summary({ setReftoElement }) {
             through building community, creating content, and improving the
             developer experience of a product.
           </p>
-          <div className="mt-10">
-            <Image
-              src="/typesdevrel_v2.png"
-              className="mt-4"
-              alt="the 3 pillars of DevRel"
-              width="2070"
-              height="1179"
-            />
-            {/* <Image
-              src="/pillarsofdevrel_updated.png"
-              className="mt-4"
-              alt="the 3 pillars of DevRel"
-              width="2070"
-              height="1179"
-            /> */}
-          </div>
         </div>
       </div>
     </div>
