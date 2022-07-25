@@ -10,8 +10,7 @@
 
 * {
   font-family: system-ui, -apple-system, blinkmacsystemfont, "segoe ui",
-    "helvetica neue", helvetica, ubuntu, roboto, sans-serif, "apple color emoji",
-    "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+    "helvetica neue", helvetica, ubuntu, roboto, sans-serif;
   line-height: 1.625;
   color: hsla(0, 0%, 100%, 0.7);
   font-weight: 300;
@@ -22,19 +21,11 @@ h1,
 h2,
 h3,
 h4,
-h5,
-.globalHeading {
+h5 {
   font-family: ui-serif, serif;
   color: white;
 }
 
 p {
   font-size: 1.25rem;
-}
-
-h1 {
-}
-
-.specialColor {
-  color: #3a3a3a;
 }

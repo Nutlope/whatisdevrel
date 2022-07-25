@@ -38,11 +38,10 @@ Essentially use the content from my devrel blog post and devrel repo.
 - [x] Fix pillars picture by making it match the color scheme
 - [x] copy https://zed.dev/ fonts
 - [x] copy https://zed.dev/ design/colors
-
+- [x] Add footer for people to submit PRs
+  - [x] Clean up repo to make it OSS
 
 - [ ] Simplify OG image with Lee's feedback
-- [ ] Add footer for people to submit PRs
-  - [ ] Clean up repo to make it OSS
 - [ ] Use static tweet in the jobs section instead of image
 - [ ] Make pillars picture look better (maybe svg?)
 - [ ] Make all contributor pics black and white

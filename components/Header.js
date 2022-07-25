@@ -3,13 +3,8 @@ export default function Header({ scrollHandler }) {
     //   TODO: Think about if I need the following to move to sm:
     <header className="relative pb-10 pt-20 text-center md:grid md:min-h-screen md:place-items-center md:px-6 md:pt-0">
       <div className="mx-auto max-w-max">
-        <h3 className="w-full">
-          <span className="globalHeading text-5xl font-extrabold tracking-tight sm:text-8xl">
-            whatisdevrel
-          </span>
-          <span className="globalHeading !specialColor text-3xl font-semibold tracking-tighter sm:text-5xl">
-            .com
-          </span>
+        <h3 className="inline text-5xl font-extrabold tracking-tighter sm:text-8xl">
+          whatisdevrel.com
         </h3>
         <div className="mt-1 mb-6">
           <h3 className="py-3 px-8 text-xl font-normal text-gray-300 md:text-2xl">

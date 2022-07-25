@@ -2,6 +2,7 @@ import { useRef } from "react";
 import Advice from "../components/Advice";
 import Contributors from "../components/Contributors";
 import DevRelPillars from "../components/DevRelPillars";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Jobs from "../components/Jobs";
 import MetaHead from "../components/MetaHead";
@@ -24,7 +25,7 @@ export default function Home() {
   return (
     <>
       <MetaHead />
-      <div className="mx-auto max-w-7xl px-4 text-white">
+      <div className="mx-auto max-w-7xl px-4">
         <Header scrollHandler={scrollHandler} />
         <Summary setReftoElement={setReftoElement} />
         <DevRelPillars />
@@ -32,6 +33,7 @@ export default function Home() {
         <Advice />
         <Resources />
         <Contributors />
+        <Footer />
       </div>
     </>
   );
