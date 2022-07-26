@@ -37,7 +37,7 @@ export default function Contributors() {
       <div className='mx-auto mt-14 max-w-2xl border-t border-gray-700 py-6 pt-6'></div>
       <div className='space-y-12'>
         <div className='space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl'>
-          <h2 className='text-3xl dark:text-white md:text-5xl'>Contributors</h2>
+          <h2 className='text-3xl dark:text-white md:text-5xl'>Authors</h2>
           <p className='dark:text-[#bfbfbf]'>
             This content has been created and reviewed by the following people.
           </p>

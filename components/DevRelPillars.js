@@ -46,6 +46,7 @@ export default function DevRelPillars() {
         <h2 className='mb-4 mt-8 text-3xl  tracking-tight dark:text-white sm:text-4xl'>
           The DX Engineer
         </h2>
+
         <p className='dark:text-[#bfbfbf]'>
           <span className='font-bold'>Product-focused DevRel</span> is about
           owning the developer exeprience of the product. It's about improving

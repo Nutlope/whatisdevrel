@@ -8,14 +8,17 @@ This is a website that explains what developer relations is, how to get a job do
 
 ## Contributors
 
-- [Hassan](https://twitter.com/nutlope)
-- [Lee](https://twitter.com/leeerob)
-- [Cami](https://twitter.com/camiinthisthang)
+- [Hassan El Mghari](https://twitter.com/nutlope)
+- [Lee Robinson](https://twitter.com/leeerob)
+- [Cami Ramos](https://twitter.com/camiinthisthang)
 - [Swyx](https://twitter.com/swyx)
+- [CuddleofDeath](https://twitter.com/cuddleofdeath)
 
 ## Contributions
 
 Want to contribute resources or advice? Feel free to submit a PR!
+
+However, I reserve the right to decline contributions to keep this resource high quality.
 
 ---
 
