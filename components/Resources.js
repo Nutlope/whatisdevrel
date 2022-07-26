@@ -115,6 +115,14 @@ export default function Resources() {
                 Technical community builders
               </a>
             </li>
+            <li>
+              <a
+                href="https://dev.to/jacobandrewsky/what-is-devrel-and-how-can-you-start-doing-it-today-lpc"
+                className="hover:underline"
+              >
+                What is DevRel and how can you start doing it today?
+              </a>
+            </li>
           </ul>
         </div>
         <div className="flex flex-col">
