@@ -12,6 +12,7 @@ This is a website that explains what developer relations is, how to get a job do
 - [Lee Robinson](https://twitter.com/leeerob)
 - [Cami Ramos](https://twitter.com/camiinthisthang)
 - [Swyx](https://twitter.com/swyx)
+- [CuddleofDeath](https://twitter.com/cuddleofdeath)
 
 ## Contributions
 
