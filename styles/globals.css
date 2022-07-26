@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* * {
   font-family: system-ui, -apple-system, blinkmacsystemfont, "segoe ui",
     "helvetica neue", helvetica, ubuntu, roboto, sans-serif;
   line-height: 1.625;
@@ -25,4 +25,4 @@ p,
 li {
   font-size: 1.25rem;
   line-height: 1.75;
-}
+} */
