@@ -26,3 +26,27 @@ li {
   font-size: 1.25rem;
   line-height: 1.75;
 } */
+* {
+  font-family: system-ui, -apple-system, blinkmacsystemfont, "segoe ui",
+    "helvetica neue", helvetica, ubuntu, roboto, sans-serif;
+  line-height: 1.625;
+  font-weight: 300;
+  /* background: white; */
+  padding-left: 2px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: ui-serif, serif;
+  color: black;
+}
+
+p,
+li{
+  font-size: 1.25rem;
+  line-height: 1.75;
+  color:#5d5959
+}

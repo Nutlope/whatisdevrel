@@ -4,25 +4,25 @@ import ThreePillars from "./ThreePillars";
 export default function DevRelPillars() {
   return (
     <>
-      <div className="mx-auto max-w-3xl">
-        <div className="mx-auto mt-14 max-w-2xl border-t border-gray-700 pt-6"></div>
-        <h1 className="mt-4 mb-6 w-full text-center text-3xl md:text-5xl">
+      <div className='mx-auto max-w-3xl'>
+        <div className='mx-auto mt-14 max-w-2xl border-t border-gray-700 pt-6'></div>
+        <h1 className='mt-4 mb-6 w-full text-center text-3xl dark:text-white  md:text-5xl'>
           The 3 types of DevRel
         </h1>
-        <p className="mt-4 mb-4">
+        <p className='mt-4 mb-4 dark:text-[#bfbfbf]'>
           Let's talk about the 3 types of DevRel: Community, Content, and
           Product. Many developer advocates do{" "}
-          <span className="italic">a mix of these</span> but tend to specialize
+          <span className='italic'>a mix of these</span> but tend to specialize
           in one or two.{" "}
         </p>
       </div>
       <ThreePillars />
-      <div className="mx-auto mt-10 max-w-3xl text-left">
-        <h2 className="mb-4 text-3xl tracking-tight sm:text-4xl">
+      <div className='mx-auto mt-10 max-w-3xl text-left'>
+        <h2 className='mb-4 text-3xl tracking-tight dark:text-white sm:text-4xl'>
           The Community Builder
         </h2>
-        <p>
-          <span className="font-bold">Community-focused DevRel</span> centers
+        <p className='dark:text-[#bfbfbf]'>
+          <span className='font-bold'>Community-focused DevRel</span> centers
           around growing and managing a community of developers. This is usually
           a Slack or Discord community that's focused on a company's product or
           an open source technology. Managing a community consists of answering
@@ -31,11 +31,11 @@ export default function DevRelPillars() {
           other events.
         </p>
 
-        <h2 className="mb-4 mt-8 text-3xl  tracking-tight sm:text-4xl">
+        <h2 className='mb-4 mt-8 text-3xl  tracking-tight dark:text-white sm:text-4xl'>
           The Developer Educator
         </h2>
-        <p>
-          <span className="font-bold">Content-focused DevRel</span> is about
+        <p className='dark:text-[#bfbfbf]'>
+          <span className='font-bold'>Content-focused DevRel</span> is about
           spreading awareness about a product through written and spoken
           content. This can involve writing blog posts, making videos, teaching
           workshops, recording podcasts, tweeting and more. Content can be an
@@ -43,11 +43,11 @@ export default function DevRelPillars() {
           new feature launches.
         </p>
 
-        <h2 className="mb-4 mt-8 text-3xl  tracking-tight sm:text-4xl">
+        <h2 className='mb-4 mt-8 text-3xl  tracking-tight dark:text-white sm:text-4xl'>
           The DX Engineer
         </h2>
-        <p className="">
-          <span className="font-bold">Product-focused DevRel</span> is about
+        <p className='dark:text-[#bfbfbf]'>
+          <span className='font-bold'>Product-focused DevRel</span> is about
           owning the developer exeprience of the product. It's about improving
           how it feels for a developer to use a specific product. This can be
           done by talking to users to understand how they're using it, then

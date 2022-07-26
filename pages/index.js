@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <MetaHead />
-      <div className='animate-fade-in-up'>
+      <div className='mx-auto max-w-6xl animate-fade-in-up px-4'>
         <Summary />
         <DevRelPillars />
         <Jobs />

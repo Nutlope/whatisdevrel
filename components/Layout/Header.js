@@ -14,7 +14,7 @@ function Header() {
   if (!mounted) return null;
 
   return (
-    <header className='pt-4'>
+    <header className='mx-auto max-w-6xl pt-4'>
       <div className='flex items-center justify-between'>
         <Link href='/'>
           <a>

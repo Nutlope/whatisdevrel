@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 function Layout({ children }) {
   return (
-    <div className='mx-auto max-w-6xl px-4 '>
+    <div className=' dark:bg-[#101010] '>
       <Header />
       <main>{children}</main>
       <Footer />
