@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/future/image";
 
 export default function Contributors() {
   const contributors = [
@@ -50,9 +50,9 @@ export default function Contributors() {
             <li key={person.name}>
               <div className="space-y-6">
                 <Image
-                  className="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56"
+                  className="mx-auto h-44 w-44 rounded-full"
                   src={person.imageUrl}
-                  alt=""
+                  alt="picture of a contributor"
                   width="180"
                   height="180"
                 />
