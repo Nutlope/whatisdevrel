@@ -13,7 +13,7 @@ export default function Advice() {
         Let's look at some rules.
       </p>
       <div className="mx-auto max-w-4xl text-left">
-        <h2 className="mb-4 mt-4 text-3xl  sm:text-4xl">
+        <h2 className="mb-6 mt-6 text-3xl sm:text-4xl">
           How to engage developers
         </h2>
         <ul className="ml-4 list-disc space-y-3">
