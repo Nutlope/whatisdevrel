@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 function Layout({ children }) {
   return (
-    <div className=' dark:bg-[#101010] '>
+    <div className=' max-h-full'>
       <Header />
       <main>{children}</main>
       <Footer />
