@@ -10,7 +10,7 @@ export default function Jobs() {
     {
       name: "You can code",
       description:
-        "For this, you can show off some of your side projects or highlight your previous engineering experience. It's important for DevRels to be able to code to emphathize with developers.",
+        "For this, you can show off some of your side projects or highlight your previous engineering experience. It's important for DevRels to be able to code to empathize with developers.",
       icon: CodeIcon,
     },
     {
@@ -22,7 +22,7 @@ export default function Jobs() {
     {
       name: "You can create content",
       description:
-        "For this skill, you can show off your talks, YouTube videos, tweets, and blog posts. If you don't have any of these, I'd stongly recommend you create some content.",
+        "For this skill, you can show off your talks, YouTube videos, tweets, and blog posts. If you don't have any of these, I'd strongly recommend you create some content.",
       icon: LightningBoltIcon,
     },
   ];
