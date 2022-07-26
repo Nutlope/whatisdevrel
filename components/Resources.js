@@ -83,6 +83,14 @@ export default function Resources() {
         <div className="flex flex-col">
           <h2 className="mb-3 text-3xl text-white">Articles </h2>
           <ul className="flex list-inside list-disc flex-col text-left md:self-center">
+          <li>
+              <a
+                href="https://newsletter.oberai.dev/issues/the-fear-of-being-me-1248274"
+                className="hover:underline"
+              >
+                The fear of being me
+              </a>
+            </li>
             <li>
               <a
                 href="https://dev.to/dabit3/7-tips-for-breaking-into-devrel-7jk"
