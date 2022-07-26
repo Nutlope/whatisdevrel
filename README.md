@@ -8,9 +8,9 @@ This is a website that explains what developer relations is, how to get a job do
 
 ## Contributors
 
-- [Hassan](https://twitter.com/nutlope)
-- [Lee](https://twitter.com/leeerob)
-- [Cami](https://twitter.com/camiinthisthang)
+- [Hassan El Mghari](https://twitter.com/nutlope)
+- [Lee Robinson](https://twitter.com/leeerob)
+- [Cami Ramos](https://twitter.com/camiinthisthang)
 - [Swyx](https://twitter.com/swyx)
 
 ## Contributions
