@@ -3,7 +3,7 @@
 export default function Summary() {
   return (
     <div className="mx-auto mt-10 max-w-3xl text-center md:mt-20">
-      <h1 className="text-5xl md:text-7xl">What is Developer Relations?</h1>
+      <h1 className="text-3xl md:text-5xl">What is Developer Relations?</h1>
       <div className="flex">
         <div className="text-left">
           <p className="mt-5 mb-5">
@@ -21,7 +21,7 @@ export default function Summary() {
             DevRel, also known as Developer Relations or Developer Advocacy, is
             a role that exists at developer tool companies (companies whose
             target market is developers). Developer Advocates{" "}
-            <span className="decoration underline underline-offset-4">
+            <span className="underline decoration-gray-600 decoration-dotted underline-offset-4">
               help educate developers on a specific product or technology
             </span>{" "}
             through building community, creating content, and improving the

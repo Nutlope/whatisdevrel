@@ -5,8 +5,8 @@ export default function DevRelPillars() {
   return (
     <>
       <div className="mx-auto max-w-3xl">
-        <div className="mx-auto mt-14 max-w-2xl border-t border-gray-500 pt-6"></div>
-        <h1 className="mt-4 mb-6 w-full text-center text-5xl sm:text-6xl">
+        <div className="mx-auto mt-14 max-w-2xl border-t border-gray-700 pt-6"></div>
+        <h1 className="mt-4 mb-6 w-full text-center text-3xl md:text-5xl">
           The 3 types of DevRel
         </h1>
         <p className="mt-4 mb-4">
