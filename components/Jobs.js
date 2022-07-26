@@ -55,20 +55,16 @@ export default function Jobs() {
           When applying for developer advocate roles, it's important to show
           that you have some of these three skills below:
         </p>
-        <dl className="space-y-10 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10 md:space-y-0">
+        <dl className="">
           {skills.map((skill) => (
-            <div key={skill.name} className="relative">
+            <div key={skill.name} className="relative mb-5">
               <dt>
-                <div className="absolute flex h-12 w-12 items-center justify-center rounded-md border border-gray-700 text-white">
+                <div className="absolute mt-2 flex h-12 w-12 items-center justify-center rounded-md border border-gray-700 text-white">
                   <skill.icon className="h-6 w-6" aria-hidden="true" />
                 </div>
-                <p className="ml-16 text-lg font-medium leading-6">
-                  {skill.name}
-                </p>
+                <p className="ml-16 font-medium">{skill.name}</p>
               </dt>
-              <dd className="mt-2 ml-16 text-base text-gray-500">
-                {skill.description}
-              </dd>
+              <dd className="ml-16 pl-2 text-gray-500">{skill.description}</dd>
             </div>
           ))}
         </dl>
