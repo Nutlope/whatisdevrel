@@ -17,6 +17,8 @@ This is a website that explains what developer relations is, how to get a job do
 
 Want to contribute resources or advice? Feel free to submit a PR!
 
+However, I reserve the right to decline contributions to keep this resource high quality.
+
 ---
 
 [![Powered by Vercel](/public/powered-by-vercel.svg 'Powered by Vercel')](https://vercel.com/?utm_source=trpc&utm_campaign=oss)
