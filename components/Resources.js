@@ -120,7 +120,7 @@ export default function Resources() {
                 href="https://dev.to/jacobandrewsky/what-is-devrel-and-how-can-you-start-doing-it-today-lpc"
                 className="hover:underline"
               >
-                What is DevRel and how can you start doing it today?
+                Doing DevRel Today
               </a>
             </li>
           </ul>
