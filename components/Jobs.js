@@ -10,7 +10,7 @@ export default function Jobs() {
     {
       name: "You can code",
       description:
-        "For this, you can show off some of your side projects or highlight your previous engineering experience. It's important for DevRels to be able to code to emphathize with developers.",
+        "For this, you can show off some of your side projects or highlight your previous engineering experience. It's important for DevRels to be able to code to empathize with developers.",
       icon: CodeIcon,
     },
     {
