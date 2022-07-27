@@ -41,6 +41,14 @@ export default function Resources() {
                 Developer's Guide to Content Creation
               </a>
             </li>
+            <li>
+              <a
+                href="https://www.devrelbook.com/"
+                className="hover:underline"
+              >
+                Developer Relations – How to build and grow a successful developer program
+              </a>
+            </li>
           </ul>
         </div>
         <div className="flex flex-col">
@@ -115,6 +123,18 @@ export default function Resources() {
                 Technical community builders
               </a>
             </li>
+
+
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Developer_relations"
+                className="hover:underline"
+              >
+                Developer relations (Wikipedia article)
+              </a>
+            </li>
+
+
           </ul>
         </div>
         <div className="flex flex-col">
