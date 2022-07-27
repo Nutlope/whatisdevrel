@@ -48,7 +48,7 @@ export default function DevRelPillars() {
         </h2>
         <p className="">
           <span className="font-bold">Product-focused DevRel</span> is about
-          owning the developer exeprience of the product. It's about improving
+          owning the developer experience of the product. It's about improving
           how it feels for a developer to use a specific product. This can be
           done by talking to users to understand how they're using it, then
           making improvements to the documentation and creating guides based on
