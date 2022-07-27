@@ -31,6 +31,13 @@ export default function Contributors() {
       twitterUrl: "https://twitter.com/swyx",
       websiteUrl: "https://swyx.io/",
     },
+    {
+      name: 'Jakub Andrzejewski',
+      role: "Vue Storefront",
+      imageUrl: "/jakub.jpeg",
+      twitterUrl: "https://twitter.com/jacobandrewsky",
+      websiteUrl: "https://dev.to/jacobandrewsky"
+    }
   ];
   return (
     <div className="mx-auto mb-10 max-w-5xl px-4 text-center sm:px-6">
