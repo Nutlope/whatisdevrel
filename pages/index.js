@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <MetaHead />
-      <div className="animate-fade-in-up  px-4">
+      <div className="animate-fade-in-up  ">
         <Summary />
         <DevRelPillars />
         <Jobs />
