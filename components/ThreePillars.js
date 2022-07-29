@@ -3,15 +3,17 @@ export default function ThreePillars() {
     <div className="container mx-auto max-w-6xl px-4">
       <div>
         <div className="grid grid-cols-1 justify-evenly gap-10 pt-10 md:grid-cols-2 lg:grid-cols-3">
-          <div className="w-full transform overflow-hidden rounded-lg text-center transition duration-200 ease-in hover:scale-105 hover:shadow-2xl">
-            <div className="w-full border-b border-gray-800 py-5">
-              <h2 className="text-3xl text-white">Community</h2>
+          <div className="w-full  transform overflow-hidden rounded-lg text-center shadow transition duration-200 ease-in hover:scale-105 hover:shadow-2xl">
+            <div className="w-full border-b  border-gray-800 py-5">
+              <h2 className="text-3xl font-semibold  dark:text-white">
+                Community
+              </h2>
             </div>
             <div>
               <div className="my-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="fill-stroke mx-auto h-12 w-12 text-indigo-600"
+                  className="fill-stroke mx-auto h-12 w-12 "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -27,25 +29,31 @@ export default function ThreePillars() {
                   The Community Builder
                 </p>
               </div>
-              <div className="mb-10 text-lg font-light leading-8">
+              <div className="mb-10 text-lg font-light leading-8 ">
                 <ul>
-                  <li>Organizing events</li>
-                  <li>Doing livestreams</li>
-                  <li>Discord/Slack community</li>
-                  <li>Talking to users for feedback</li>
+                  <li className="dark:text-[#bfbfbf]">Organizing events</li>
+                  <li className="dark:text-[#bfbfbf]">Doing livestreams</li>
+                  <li className="dark:text-[#bfbfbf]">
+                    Discord/Slack community
+                  </li>
+                  <li className="dark:text-[#bfbfbf]">
+                    Talking to users for feedback
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className="w-full transform overflow-hidden rounded-lg text-center transition duration-200 ease-in hover:scale-105 hover:shadow-2xl">
-            <div className="w-full border-b border-gray-800 py-5">
-              <h2 className="text-3xl text-white">Content</h2>
+          <div className="w-full transform overflow-hidden rounded-lg text-center shadow transition duration-200 ease-in hover:scale-105 hover:shadow-2xl">
+            <div className="w-full  border-b border-gray-800 py-5">
+              <h2 className="text-3xl font-semibold  dark:text-white">
+                Content
+              </h2>
             </div>
             <div className="">
               <div className="my-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="fill-stroke mx-auto h-12 w-12 text-indigo-600"
+                  className="fill-stroke mx-auto h-12 w-12 "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -63,23 +71,27 @@ export default function ThreePillars() {
               </div>
               <div className="mb-10 text-lg font-light leading-8">
                 <ul>
-                  <li>Writing blogs</li>
-                  <li>Making videos</li>
-                  <li>Doing courses</li>
-                  <li>Speaking at conferences</li>
+                  <li className="dark:text-[#bfbfbf]">Writing blogs</li>
+                  <li className="dark:text-[#bfbfbf]">Making videos</li>
+                  <li className="dark:text-[#bfbfbf]">Doing courses</li>
+                  <li className="dark:text-[#bfbfbf]">
+                    Speaking at conferences
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className="w-full transform overflow-hidden rounded-lg text-center transition duration-200 ease-in hover:scale-105 hover:shadow-2xl">
+          <div className="w-full transform overflow-hidden rounded-lg text-center shadow transition duration-200 ease-in hover:scale-105 hover:shadow-2xl">
             <div className="w-full border-b border-gray-800 py-5">
-              <h2 className="text-3xl text-white">Product</h2>
+              <h2 className="text-3xl font-semibold dark:text-white">
+                Product
+              </h2>
             </div>
             <div>
               <div className="my-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="fill-stroke mx-auto h-12 w-12 text-indigo-600"
+                  className="fill-stroke mx-auto h-12 w-12 "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -97,10 +109,16 @@ export default function ThreePillars() {
               </div>
               <div className="mb-10 text-lg font-light leading-8">
                 <ul>
-                  <li>Iterating on docs</li>
-                  <li>Coding examples & starters</li>
-                  <li>Working on integrations</li>
-                  <li>Improving the overall DX</li>
+                  <li className="dark:text-[#bfbfbf]">Iterating on docs</li>
+                  <li className="dark:text-[#bfbfbf]">
+                    Coding examples & starters
+                  </li>
+                  <li className="dark:text-[#bfbfbf]">
+                    Working on integrations
+                  </li>
+                  <li className="dark:text-[#bfbfbf]">
+                    Improving the overall DX
+                  </li>
                 </ul>
               </div>
             </div>

@@ -37,8 +37,8 @@ export default function Contributors() {
       <div className="mx-auto mt-14 max-w-2xl border-t border-gray-700 py-6 pt-6"></div>
       <div className="space-y-12">
         <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-          <h2 className="text-3xl md:text-5xl">Authors</h2>
-          <p>
+          <h2 className="text-3xl dark:text-white md:text-5xl">Authors</h2>
+          <p className="dark:text-[#bfbfbf]">
             This content has been created and reviewed by the following people.
           </p>
         </div>
@@ -58,8 +58,10 @@ export default function Contributors() {
                 />
                 <div className="">
                   <div className="space-y-1 text-lg font-medium leading-6">
-                    <p className="font-medium">{person.name}</p>
-                    <div className="">{person.role}</div>
+                    <p className="font-medium dark:text-[#bfbfbf] ">
+                      {person.name}
+                    </p>
+                    <div className="dark:text-[#bfbfbf]">{person.role}</div>
                   </div>
                   <ul className="mt-3 flex justify-center space-x-4">
                     <a
