@@ -1,7 +1,7 @@
 import Advice from "../components/Advice";
 import Contributors from "../components/Contributors";
 import DevRelPillars from "../components/DevRelPillars";
-import Footer from "../components/Footer";
+import Footer from "../components/Layout/Footer";
 import Jobs from "../components/Jobs";
 import MetaHead from "../components/MetaHead";
 import Resources from "../components/Resources";
@@ -11,14 +11,13 @@ export default function Home() {
   return (
     <>
       <MetaHead />
-      <div className="mx-auto max-w-6xl px-4">
+      <div className="animate-fade-in-up  ">
         <Summary />
         <DevRelPillars />
         <Jobs />
         <Advice />
         <Resources />
         <Contributors />
-        <Footer />
       </div>
     </>
   );
