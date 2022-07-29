@@ -101,21 +101,13 @@ export default function Resources() {
             </li>
             <li className="dark:text-[#bfbfbf]">
               <a
-                href="https://theworst.dev/developer-experience"
-                className="hover:underline"
-              >
-                Redefining Developer Experience
-              </a>
-            </li>
-            <li className="dark:text-[#bfbfbf]">
-              <a
                 href="https://www.swyx.io/community-builder"
                 className="hover:underline"
               >
                 Technical community builders
               </a>
             </li>
-            <li>
+            <li className="dark:text-[#bfbfbf]">
               <a
                 href="https://dev.to/jacobandrewsky/what-is-devrel-and-how-can-you-start-doing-it-today-lpc"
                 className="hover:underline"
