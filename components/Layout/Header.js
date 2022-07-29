@@ -14,11 +14,11 @@ function Header() {
   if (!mounted) return null;
 
   return (
-    <header className='mx-auto max-w-6xl pt-4'>
-      <div className='flex items-center justify-between'>
-        <Link href='/'>
+    <header className="px-4 pt-4">
+      <div className="flex items-center justify-between">
+        <Link href="/">
           <a>
-            <div className='short-transitions group hover:animate-[spin_2s_infinite]'></div>
+            <div className="short-transitions group hover:animate-[spin_2s_infinite]"></div>
           </a>
         </Link>
 
@@ -26,8 +26,9 @@ function Header() {
           onClick={() => {
             setTheme(resolvedTheme === "light" ? "dark" : "light");
           }}
-          type='button'
-          className='rounded-md p-2 hover:bg-gray-200 dark:hover:bg-gray-700'>
+          type="button"
+          className="rounded-md p-2 hover:bg-gray-200 dark:hover:bg-gray-700"
+        >
           {theme === "light" ? <MoonIcon /> : <SunIcon />}
         </button>
       </div>

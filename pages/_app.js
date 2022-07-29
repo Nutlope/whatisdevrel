@@ -5,8 +5,8 @@ import Layout from "../components/Layout";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <PlausibleProvider domain='whatisdevrel.com'>
-      <ThemeProvider defaultTheme='system' attribute='class'>
+    <PlausibleProvider domain="whatisdevrel.com">
+      <ThemeProvider defaultTheme="system" attribute="class">
         <Layout>
           <Component {...pageProps} />
         </Layout>
