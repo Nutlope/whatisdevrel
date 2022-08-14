@@ -4,18 +4,18 @@ export default function Advice() {
   return (
     <div className="mx-auto mt-10 max-w-3xl">
       <div className="mx-auto mt-14 max-w-2xl border-t border-gray-700 pt-6" />
-      <h1 className="mt-4 mb-8 w-full text-center text-3xl dark:text-white md:text-5xl">
+      <h2 className="mt-4 mb-8 w-full text-center text-3xl dark:text-white md:text-5xl">
         Advice for DevRels
-      </h1>
+      </h2>
       <p className="dark:text-[#bfbfbf]">
         One of the hardest parts of DevRel is getting developer's attention.
         It's what every devtool company is competing for. So how do you get it?
         Let's look at some rules.
       </p>
       <div className="mx-auto max-w-4xl text-left">
-        <h2 className="mb-6 mt-6 text-3xl dark:text-white sm:text-4xl">
+        <h3 className="mb-6 mt-6 text-3xl dark:text-white sm:text-4xl">
           How to engage developers
-        </h2>
+        </h3>
         <ul className="ml-4 list-disc space-y-3 dark:text-[#bfbfbf] ">
           <li className="dark:text-[#bfbfbf]">
             <span className="font-bold">Show, don’t tell.</span> Break down

@@ -15,19 +15,14 @@ function Header() {
 
   return (
     <header className=" mx-auto max-w-3xl  pt-4 ">
-      <div className="flex items-center justify-between">
-        <Link href="/">
-          <a>
-            <div className="short-transitions group hover:animate-[spin_2s_infinite]"></div>
-          </a>
-        </Link>
-
+      <div className="flex items-center justify-end">
         <button
           onClick={() => {
             setTheme(resolvedTheme === "light" ? "dark" : "light");
           }}
           type="button"
           className="rounded-md p-2 hover:bg-gray-200 dark:hover:bg-gray-700"
+          aria-label={theme === "light" ? "Dark theme" : "Light theme"}
         >
           {theme === "light" ? <MoonIcon /> : <SunIcon />}
         </button>

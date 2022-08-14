@@ -5,9 +5,9 @@ export default function ThreePillars() {
         <div className="grid grid-cols-1 justify-evenly gap-10 pt-10 md:grid-cols-2 lg:grid-cols-3">
           <div className="w-full  transform overflow-hidden rounded-lg text-center shadow transition duration-200 ease-in hover:scale-105 hover:shadow-2xl">
             <div className="w-full border-b  border-gray-800 py-5">
-              <h2 className="text-3xl font-semibold  dark:text-white">
+              <h3 className="text-3xl font-semibold  dark:text-white">
                 Community
-              </h2>
+              </h3>
             </div>
             <div>
               <div className="my-5">
@@ -45,9 +45,9 @@ export default function ThreePillars() {
           </div>
           <div className="w-full transform overflow-hidden rounded-lg text-center shadow transition duration-200 ease-in hover:scale-105 hover:shadow-2xl">
             <div className="w-full  border-b border-gray-800 py-5">
-              <h2 className="text-3xl font-semibold  dark:text-white">
+              <h3 className="text-3xl font-semibold  dark:text-white">
                 Content
-              </h2>
+              </h3>
             </div>
             <div className="">
               <div className="my-5">
@@ -83,9 +83,9 @@ export default function ThreePillars() {
           </div>
           <div className="w-full transform overflow-hidden rounded-lg text-center shadow transition duration-200 ease-in hover:scale-105 hover:shadow-2xl">
             <div className="w-full border-b border-gray-800 py-5">
-              <h2 className="text-3xl font-semibold dark:text-white">
+              <h3 className="text-3xl font-semibold dark:text-white">
                 Product
-              </h2>
+              </h3>
             </div>
             <div>
               <div className="my-5">

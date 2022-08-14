@@ -5,12 +5,12 @@ export default function Resources() {
   return (
     <div className="mx-auto mt-10 max-w-3xl dark:text-white">
       <div className="mx-auto mt-14 max-w-2xl border-t border-gray-700 pt-6"></div>
-      <h1 className="mt-4 mb-8 w-full text-center text-3xl dark:text-white md:text-5xl">
+      <h2 className="mt-4 mb-8 w-full text-center text-3xl dark:text-white md:text-5xl">
         DevRel Resources
-      </h1>
+      </h2>
       <div className="mt-6 grid gap-16 pt-6 text-center md:grid-cols-2 md:gap-x-5 md:gap-y-12">
         <div className="flex flex-col">
-          <h2 className="mb-3 text-3xl dark:text-white">Books </h2>
+          <h3 className="mb-3 text-3xl dark:text-white">Books </h3>
           <ul className="flex list-inside list-disc flex-col text-left md:self-center">
             <li className="dark:text-[#bfbfbf]">
               <a
@@ -44,7 +44,7 @@ export default function Resources() {
           </ul>
         </div>
         <div className="flex flex-col">
-          <h2 className="mb-3 text-3xl dark:text-white">Blogs </h2>
+          <h3 className="mb-3 text-3xl dark:text-white">Blogs </h3>
           <ul className="flex list-inside list-disc flex-col text-left md:self-center">
             <li className="dark:text-[#bfbfbf]">
               <a
@@ -81,7 +81,7 @@ export default function Resources() {
           </ul>
         </div>
         <div className="flex flex-col">
-          <h2 className="mb-3 text-3xl dark:text-white">Articles </h2>
+          <h3 className="mb-3 text-3xl dark:text-white">Articles </h3>
           <ul className="flex list-inside list-disc flex-col text-left md:self-center">
             <li className="dark:text-[#bfbfbf]">
               <a
@@ -118,7 +118,7 @@ export default function Resources() {
           </ul>
         </div>
         <div className="flex flex-col">
-          <h2 className="mb-3 text-3xl dark:text-white">Podcasts </h2>
+          <h3 className="mb-3 text-3xl dark:text-white">Podcasts </h3>
           <ul className="flex list-inside list-disc flex-col text-left md:self-center">
             <li className="dark:text-[#bfbfbf]">
               <a href="https://devrelrad.io/" className="hover:underline">

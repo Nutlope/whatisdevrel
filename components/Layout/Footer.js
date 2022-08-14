@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="mt-20 mb-5 text-center text-sm">
+    <footer className="mt-20 mb-5 text-center text-sm">
       Want to contribute? Submit a PR on{" "}
       <a
         href="https://github.com/Nutlope/whatisdevrel"
@@ -10,6 +10,6 @@ export default function Footer() {
       >
         GitHub
       </a>
-    </div>
+    </footer>
   );
 }
