@@ -66,6 +66,7 @@ export default function Contributors() {
                   <ul className="mt-3 flex justify-center space-x-4">
                     <a
                       href={person.twitterUrl}
+                      target="_blank"
                       className="text-gray-400 hover:text-gray-500"
                     >
                       <span className="sr-only">Twitter</span>
@@ -80,6 +81,7 @@ export default function Contributors() {
                     </a>
                     <a
                       href={person.websiteUrl}
+                      target="_blank"
                       className="text-gray-400 hover:text-gray-500"
                     >
                       <span className="sr-only">Website</span>
