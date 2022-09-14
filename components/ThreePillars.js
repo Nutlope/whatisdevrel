@@ -40,12 +40,12 @@ export default function ThreePillars() {
       {pillarsOfDevRel.map((pillar, i) => {
         return (
           <div
-            className="transform overflow-hidden rounded-lg py-10 text-center shadow-none transition duration-200 ease-in hover:scale-105 hover:shadow-2xl"
+            className="transform overflow-hidden rounded-lg py-10 shadow-none transition duration-200 ease-in hover:scale-105 hover:shadow-2xl"
             key={i}
           >
             {/* Icon */}
             <div
-              className="title mb-3 flex items-center justify-center"
+              className="title mb-3"
               dangerouslySetInnerHTML={{ __html: pillar.icon }}
             />
 
