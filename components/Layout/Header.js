@@ -12,13 +12,14 @@ function Header() {
   useEffect(() => setMounted(true), []);
 
   return (
-    <header className=" mx-auto max-w-3xl  pt-4 ">
-      <div className="flex items-center justify-between">
-        <Link href="/">
-          <a>
-            <div className="short-transitions group hover:animate-[spin_2s_infinite]"></div>
+    <header className="pt-8">
+      <div className="container flex items-center justify-end">
+        {/* 4 l8r */}
+        {/* <Link href="/">
+          <a className="short-transitions group font-mono hover:animate-[spin_2s_linear_infinite]">
+            &lt;3
           </a>
-        </Link>
+        </Link> */}
 
         <button
           onClick={() => {
