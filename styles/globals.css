@@ -3,9 +3,8 @@
 
 @layer base {
   body {
-    @apply font-light text-gray-600 dark:text-gray-400;
+    @apply font-light leading-[1.75] text-gray-600 dark:text-gray-400;
     font-size: 20px;
-    line-height: 1.75;
   }
 }
 
