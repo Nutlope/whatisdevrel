@@ -4,7 +4,9 @@
 @layer base {
   body {
     @apply font-light leading-[1.75] text-gray-600 dark:text-gray-400;
-    font-size: 20px;
+    @screen md {
+      font-size: 20px;
+    }
   }
 }
 
