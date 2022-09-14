@@ -11,8 +11,6 @@ function Header() {
 
   useEffect(() => setMounted(true), []);
 
-  if (!mounted) return null;
-
   return (
     <header className=" mx-auto max-w-3xl  pt-4 ">
       <div className="flex items-center justify-between">
