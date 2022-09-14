@@ -3,7 +3,7 @@ import ThreePillars from "./ThreePillars";
 /* eslint-disable react/no-unescaped-entities */
 export default function DevRelPillars() {
   return (
-    <section className="container border-t border-gray-700 pt-6 text-center">
+    <section className="container animate-fade-in-up border-t border-gray-700 pt-6">
       <h2 className="title mt-4 mb-6 text-3xl md:text-5xl">
         The 3 types of DevRel
       </h2>
@@ -19,7 +19,7 @@ export default function DevRelPillars() {
         <h3 className="title mb-4 text-3xl sm:text-4xl">
           The Community Builder
         </h3>
-        <p className="dark:text-[#bfbfbf]">
+        <p>
           <span className="font-bold">Community-focused DevRel</span> centers
           around growing and managing a community of developers. This is usually
           a Slack or Discord community that's focused on a company's product or
@@ -32,7 +32,7 @@ export default function DevRelPillars() {
         <h3 className="title mb-4 mt-8 text-3xl sm:text-4xl">
           The Developer Educator
         </h3>
-        <p className="dark:text-[#bfbfbf]">
+        <p>
           <span className="font-bold">Content-focused DevRel</span> is about
           spreading awareness about a product through written and spoken
           content. This can involve writing blog posts, making videos, teaching
@@ -45,7 +45,7 @@ export default function DevRelPillars() {
           The DX Engineer
         </h3>
 
-        <p className="dark:text-[#bfbfbf]">
+        <p>
           <span className="font-bold">Product-focused DevRel</span> is about
           owning the developer experience of the product. It's about improving
           how it feels for a developer to use a specific product. This can be
