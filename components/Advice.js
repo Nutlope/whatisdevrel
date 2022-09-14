@@ -15,7 +15,7 @@ export default function Advice() {
         <h3 className="title mb-6 mt-6 text-3xl sm:text-4xl">
           How to engage developers
         </h3>
-        <ul className="ml-4 list-disc space-y-3 dark:text-[#bfbfbf] ">
+        <ul className="ml-4 list-disc space-y-3">
           <li>
             <strong className="font-bold">Show, don’t tell.</strong> Break down
             barriers to getting their hands on the product as quickly as
