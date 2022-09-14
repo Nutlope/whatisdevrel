@@ -24,6 +24,7 @@ function Header() {
           onClick={() => {
             setTheme(resolvedTheme === "light" ? "dark" : "light");
           }}
+          aria-label="Toggle dark/light mode"
           type="button"
           className="rounded-md p-2 hover:bg-gray-200 dark:hover:bg-gray-700"
         >
