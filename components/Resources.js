@@ -89,17 +89,20 @@ export default function Resources() {
   return (
     <div className="container mt-14 border-t border-gray-700 pt-6">
       <h2 className="title text-3xl md:text-5xl">DevRel Resources</h2>
-      <div className="mt-6 grid gap-16 pt-6 md:grid-cols-2 md:gap-x-5 md:gap-y-12">
+      <div className="mt-6 grid gap-16 pt-6 md:grid-cols-2">
         {/* Resource Category */}
         {resourceCategories.map((resourceCategory, i) => {
           return (
-            <div className="border-t pt-4" key={i}>
+            <div
+              className="border-t border-gray-300 pt-4 dark:border-gray-700"
+              key={i}
+            >
               <h2 className="title mb-3 text-3xl">{resourceCategory.title}</h2>
-              <ul className="flex list-inside list-disc flex-col text-left md:self-center">
+              <ul className="list-inside list-disc">
                 {/* Resources List */}
                 {resourceCategory.resources.map((resource, i) => {
                   return (
-                    <li className="dark:text-[#bfbfbf]" key={i}>
+                    <li key={i}>
                       <a
                         href={resource.url}
                         className="link no-underline"
