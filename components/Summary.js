@@ -2,8 +2,8 @@
 
 export default function Summary() {
   return (
-    <div className="container animate-fade-in-up">
-      <h1 className="title mb-8 text-4xl md:text-6xl">
+    <div className="container animate-fade-in-up space-y-8">
+      <h1 className="title text-4xl md:text-6xl">
         What is Developer Relations?
       </h1>
       <p>
