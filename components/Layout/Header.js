@@ -27,7 +27,7 @@ function Header() {
           }}
           aria-label="Toggle dark/light mode"
           type="button"
-          className="rounded-md p-2 hover:bg-gray-200 dark:hover:bg-gray-700"
+          className="rounded-md p-2 transition-colors duration-300 hover:bg-gray-500/10"
         >
           {theme === "light" ? <MoonIcon /> : <SunIcon />}
         </button>
