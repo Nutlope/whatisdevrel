@@ -41,7 +41,7 @@ export default function Contributors() {
         className="mt-12 space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 md:grid-cols-3 lg:max-w-5xl lg:grid-cols-4"
       >
         {contributors.map((person) => (
-          <li key={person.name}>
+          <li key={person.name} className="flex flex-col items-center">
             <Image
               className="mb-6 aspect-square w-48 rounded-full"
               src={person.imageUrl}
