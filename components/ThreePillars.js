@@ -36,11 +36,11 @@ const pillarsOfDevRel = [
 
 export default function ThreePillars() {
   return (
-    <div className="grid grid-cols-1 justify-evenly gap-10 pt-6 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 justify-evenly gap-2 pt-6 md:grid-cols-2 lg:grid-cols-3">
       {pillarsOfDevRel.map((pillar, i) => {
         return (
           <div
-            className="transform overflow-hidden rounded-lg py-10 shadow-none transition duration-200 ease-in hover:scale-105 hover:shadow-2xl"
+            className="transform overflow-hidden rounded-lg py-10 px-4 shadow-none transition duration-300 ease-in-out hover:scale-105 hover:shadow-2xl"
             key={i}
           >
             {/* Icon */}
