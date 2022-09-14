@@ -33,7 +33,6 @@ export default function Contributors() {
     },
   ];
   return (
-    <div className="mx-auto mb-10 max-w-5xl px-4 text-center sm:px-6">
       <div className="mx-auto mt-14 max-w-2xl border-t border-gray-700 py-6 pt-6"></div>
       <div className="space-y-12">
         <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
@@ -42,6 +41,7 @@ export default function Contributors() {
             This content has been created and reviewed by the following people.
           </p>
         </div>
+    <section className="section container border-t border-gray-700 pt-6 text-center">
         <ul
           role="list"
           className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 md:grid-cols-3 lg:max-w-5xl lg:grid-cols-4"

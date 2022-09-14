@@ -2,7 +2,7 @@
 
 export default function Summary() {
   return (
-    <div className="container animate-fade-in-up space-y-8">
+    <section className="section container mb-24 animate-fade-in-up space-y-8">
       <h1 className="title text-4xl md:text-6xl">
         What is Developer Relations?
       </h1>
@@ -25,6 +25,6 @@ export default function Summary() {
         through building community, creating content, and improving the
         developer experience of a product.
       </p>
-    </div>
+    </section>
   );
 }

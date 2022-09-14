@@ -2,7 +2,7 @@
 
 export default function Advice() {
   return (
-    <section className="container mt-10 border-t border-gray-700 pt-6">
+    <section className="section container border-t border-gray-700 pt-6">
       <h2 className="title mt-4 mb-8 text-3xl md:text-5xl">
         Advice for DevRels
       </h2>

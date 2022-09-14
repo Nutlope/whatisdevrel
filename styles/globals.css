@@ -20,8 +20,12 @@
   @apply font-serif text-black dark:text-white;
 }
 
+.section {
+  @apply mt-10 md:mt-24;
+}
+
 .container {
-  @apply mt-10 max-w-4xl md:mt-20;
+  @apply max-w-4xl px-4;
 }
 
 @tailwind utilities;

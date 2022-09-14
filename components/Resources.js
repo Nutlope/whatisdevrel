@@ -87,7 +87,7 @@ const resourceCategories = [
 
 export default function Resources() {
   return (
-    <div className="container mt-14 border-t border-gray-700 pt-6">
+    <div className="section container border-t border-gray-700 pt-6">
       <h2 className="title text-3xl md:text-5xl">DevRel Resources</h2>
       <div className="mt-6 grid gap-16 pt-6 md:grid-cols-2">
         {/* Resource Category */}

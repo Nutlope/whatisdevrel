@@ -3,7 +3,7 @@ import ThreePillars from "./ThreePillars";
 /* eslint-disable react/no-unescaped-entities */
 export default function DevRelPillars() {
   return (
-    <section className="container animate-fade-in-up border-t border-gray-700 pt-6">
+    <section className="section container animate-fade-in-up border-t border-gray-700 pt-6">
       <h2 className="title mt-4 mb-6 text-3xl md:text-5xl">
         The 3 types of DevRel
       </h2>

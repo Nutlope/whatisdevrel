@@ -28,7 +28,7 @@ export default function Jobs() {
   ];
 
   return (
-    <section className="container border-t border-gray-700 pt-6">
+    <section className="section container border-t border-gray-700 pt-6">
       <h1 className="title mt-4 mb-8 text-3xl md:text-5xl">
         Getting a job in DevRel
       </h1>
