@@ -3,24 +3,22 @@ import ThreePillars from "./ThreePillars";
 /* eslint-disable react/no-unescaped-entities */
 export default function DevRelPillars() {
   return (
-    <>
-      <div className="mx-auto max-w-3xl">
-        <div className="mx-auto mt-14 max-w-2xl border-t border-gray-700 pt-6"></div>
-        <h1 className="mt-4 mb-6 w-full text-center text-3xl dark:text-white  md:text-5xl">
-          The 3 types of DevRel
-        </h1>
-        <p className="mt-4 mb-4 dark:text-[#bfbfbf]">
-          Let's talk about the 3 types of DevRel: Community, Content, and
-          Product. Many developer advocates do{" "}
-          <span className="italic">a mix of these</span> but tend to specialize
-          in one or two.{" "}
-        </p>
-      </div>
+    <section className="container border-t border-gray-700 pt-6 text-center">
+      <h2 className="title mt-4 mb-6 text-3xl md:text-5xl">
+        The 3 types of DevRel
+      </h2>
+      <p className="my-4">
+        Let's talk about the 3 types of DevRel: Community, Content, and Product.
+        <br />
+        Many developer advocates do{" "}
+        <span className="italic">a mix of these</span> but tend to specialize in
+        one or two.
+      </p>
       <ThreePillars />
-      <div className="mx-auto mt-10 max-w-3xl text-left">
-        <h2 className="mb-4 text-3xl tracking-tight dark:text-white sm:text-4xl">
+      <div className="mt-10">
+        <h3 className="title mb-4 text-3xl sm:text-4xl">
           The Community Builder
-        </h2>
+        </h3>
         <p className="dark:text-[#bfbfbf]">
           <span className="font-bold">Community-focused DevRel</span> centers
           around growing and managing a community of developers. This is usually
@@ -31,9 +29,9 @@ export default function DevRelPillars() {
           other events.
         </p>
 
-        <h2 className="mb-4 mt-8 text-3xl  tracking-tight dark:text-white sm:text-4xl">
+        <h3 className="title mb-4 mt-8 text-3xl sm:text-4xl">
           The Developer Educator
-        </h2>
+        </h3>
         <p className="dark:text-[#bfbfbf]">
           <span className="font-bold">Content-focused DevRel</span> is about
           spreading awareness about a product through written and spoken
@@ -43,9 +41,9 @@ export default function DevRelPillars() {
           new feature launches.
         </p>
 
-        <h2 className="mb-4 mt-8 text-3xl  tracking-tight dark:text-white sm:text-4xl">
+        <h3 className="title mb-4 mt-8 text-3xl sm:text-4xl">
           The DX Engineer
-        </h2>
+        </h3>
 
         <p className="dark:text-[#bfbfbf]">
           <span className="font-bold">Product-focused DevRel</span> is about
@@ -57,6 +55,6 @@ export default function DevRelPillars() {
           and integrations.
         </p>
       </div>
-    </>
+    </section>
   );
 }
