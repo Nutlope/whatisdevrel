@@ -102,7 +102,7 @@ export default function Resources() {
                     <li className="dark:text-[#bfbfbf]" key={i}>
                       <a
                         href={resource.url}
-                        className="hover:underline"
+                        className="link no-underline"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

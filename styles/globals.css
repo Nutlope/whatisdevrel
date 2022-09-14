@@ -9,6 +9,13 @@
   }
 }
 
+.link {
+  @apply underline decoration-dotted underline-offset-4 transition-colors duration-300;
+}
+.link:hover {
+  @apply text-black dark:text-white;
+}
+
 .title {
   @apply font-serif text-black dark:text-white;
 }
