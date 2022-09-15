@@ -1,3 +1,5 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -7,6 +9,14 @@ module.exports = {
 
   theme: {
     extend: {
+      container: {
+        center: true,
+      },
+      colors: {
+        gray: {
+          ...colors.zinc,
+        },
+      },
       keyframes: {
         "fade-in-up": {
           "0%": {

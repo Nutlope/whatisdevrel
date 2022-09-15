@@ -11,14 +11,12 @@ export default function Home() {
   return (
     <>
       <MetaHead />
-      <div className="animate-fade-in-up  ">
-        <Summary />
-        <DevRelPillars />
-        <Jobs />
-        <Advice />
-        <Resources />
-        <Contributors />
-      </div>
+      <Summary />
+      <DevRelPillars />
+      <Jobs />
+      <Advice />
+      <Resources />
+      <Contributors />
     </>
   );
 }

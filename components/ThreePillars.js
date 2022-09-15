@@ -1,130 +1,69 @@
+const pillarsOfDevRel = [
+  {
+    name: "Community",
+    icon: `<svg data-testid="geist-icon" fill="none" height="40" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="40" style="color:var(--geist-foreground)"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>`,
+    persona: "The Community Builder",
+    responsibilities: [
+      "Organizing events",
+      "Doing livestreams",
+      "Discord/Slack community",
+      "Talking to users for feedback",
+    ],
+  },
+  {
+    name: "Content",
+    icon: `<svg data-testid="geist-icon" fill="none" height="40" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="40" style="color:var(--geist-foreground)"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>`,
+    persona: "The Developer Educator",
+    responsibilities: [
+      "Writing blogs",
+      "Making videos",
+      "Doing courses",
+      "Speaking at conferences",
+    ],
+  },
+  {
+    name: "Product",
+    icon: `<svg data-testid="geist-icon" fill="none" height="40" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="40" style="color:var(--geist-foreground)"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="M3.27 6.96L12 12.01l8.73-5.05"/><path d="M12 22.08V12"/></svg>`,
+    persona: "The Developer Experience Engineer",
+    responsibilities: [
+      "Iterating on docs",
+      "Coding examples & starters",
+      "Working on integrations",
+      "Improving the overall DX",
+    ],
+  },
+];
+
 export default function ThreePillars() {
   return (
-    <div className="container mx-auto max-w-6xl px-4">
-      <div>
-        <div className="grid grid-cols-1 justify-evenly gap-10 pt-10 md:grid-cols-2 lg:grid-cols-3">
-          <div className="w-full  transform overflow-hidden rounded-lg text-center shadow transition duration-200 ease-in hover:scale-105 hover:shadow-2xl">
-            <div className="w-full border-b  border-gray-800 py-5">
-              <h2 className="text-3xl font-semibold  dark:text-white">
-                Community
-              </h2>
-            </div>
-            <div>
-              <div className="my-5">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="fill-stroke mx-auto h-12 w-12 "
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1"
-                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                  />
-                </svg>
-                <p className="pt-2 text-sm text-gray-500">
-                  The Community Builder
-                </p>
-              </div>
-              <div className="mb-10 text-lg font-light leading-8 ">
-                <ul>
-                  <li className="dark:text-[#bfbfbf]">Organizing events</li>
-                  <li className="dark:text-[#bfbfbf]">Doing livestreams</li>
-                  <li className="dark:text-[#bfbfbf]">
-                    Discord/Slack community
-                  </li>
-                  <li className="dark:text-[#bfbfbf]">
-                    Talking to users for feedback
-                  </li>
-                </ul>
-              </div>
-            </div>
+    <div className="grid grid-cols-1 justify-evenly gap-2 pt-6 md:grid-cols-2 lg:grid-cols-3">
+      {pillarsOfDevRel.map((pillar, i) => {
+        return (
+          <div
+            className="transform overflow-hidden rounded-lg py-10 px-4 shadow-none transition duration-300 ease-in-out hover:scale-105 hover:shadow-2xl"
+            key={i}
+          >
+            {/* Icon */}
+            <div
+              className="title mb-3"
+              dangerouslySetInnerHTML={{ __html: pillar.icon }}
+            />
+
+            {/* Title */}
+            <h3 className="title text-3xl">{pillar.name}</h3>
+
+            {/* Persona */}
+            <p className="pt-2 text-sm text-gray-500">{pillar.persona}</p>
+
+            {/* Responsibilities */}
+            <ul className="mt-5 border-t border-gray-200 pt-5 text-lg leading-8 dark:border-gray-800 ">
+              {pillar.responsibilities.map((responsibility, i) => {
+                return <li key={i}>{responsibility}</li>;
+              })}
+            </ul>
           </div>
-          <div className="w-full transform overflow-hidden rounded-lg text-center shadow transition duration-200 ease-in hover:scale-105 hover:shadow-2xl">
-            <div className="w-full  border-b border-gray-800 py-5">
-              <h2 className="text-3xl font-semibold  dark:text-white">
-                Content
-              </h2>
-            </div>
-            <div className="">
-              <div className="my-5">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="fill-stroke mx-auto h-12 w-12 "
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1"
-                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-                  />
-                </svg>
-                <p className="pt-2 text-sm text-gray-500">
-                  The Developer Educator
-                </p>
-              </div>
-              <div className="mb-10 text-lg font-light leading-8">
-                <ul>
-                  <li className="dark:text-[#bfbfbf]">Writing blogs</li>
-                  <li className="dark:text-[#bfbfbf]">Making videos</li>
-                  <li className="dark:text-[#bfbfbf]">Doing courses</li>
-                  <li className="dark:text-[#bfbfbf]">
-                    Speaking at conferences
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="w-full transform overflow-hidden rounded-lg text-center shadow transition duration-200 ease-in hover:scale-105 hover:shadow-2xl">
-            <div className="w-full border-b border-gray-800 py-5">
-              <h2 className="text-3xl font-semibold dark:text-white">
-                Product
-              </h2>
-            </div>
-            <div>
-              <div className="my-5">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="fill-stroke mx-auto h-12 w-12 "
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1"
-                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
-                  />
-                </svg>
-                <p className="pt-2 text-sm text-gray-500">
-                  The Developer Experience Engineer
-                </p>
-              </div>
-              <div className="mb-10 text-lg font-light leading-8">
-                <ul>
-                  <li className="dark:text-[#bfbfbf]">Iterating on docs</li>
-                  <li className="dark:text-[#bfbfbf]">
-                    Coding examples & starters
-                  </li>
-                  <li className="dark:text-[#bfbfbf]">
-                    Working on integrations
-                  </li>
-                  <li className="dark:text-[#bfbfbf]">
-                    Improving the overall DX
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        );
+      })}
     </div>
   );
 }
