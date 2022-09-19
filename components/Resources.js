@@ -8,7 +8,7 @@ const resourceCategories = [
       },
       {
         name: "The DevRel Handbook",
-        url: "https://devrel.weavr.ai/",
+        url: "https://www.devrelhandbook.com/",
       },
       {
         name: "Getting Started in Developer Relations",
@@ -17,6 +17,14 @@ const resourceCategories = [
       {
         name: "Developer's Guide to Content Creation",
         url: "https://www.stephaniemorillo.co/product-page/the-developer-s-guide-to-content-creation",
+      },
+      {
+        name: "Developer Relations: How to Build and Grow a Successful Developer Program",
+        url: "https://www.devrelbook.com/",
+      },
+      {
+        name: "The Developer Advocacy Handbook",
+        url: "https://developer-advocacy.com/",
       },
     ],
   },
@@ -38,6 +46,10 @@ const resourceCategories = [
       {
         name: "Mary Thengvall's Blog",
         url: "https://www.marythengvall.com/blog/category/DevRel",
+      },
+      {
+        name: "Kim Maida's Blog",
+        url: "https://maida.kim/",
       },
     ],
   },
