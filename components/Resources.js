@@ -22,10 +22,6 @@ const resourceCategories = [
         name: "Developer Relations: How to Build and Grow a Successful Developer Program",
         url: "https://www.devrelbook.com/",
       },
-      {
-        name: "The Developer Advocacy Handbook",
-        url: "https://developer-advocacy.com/",
-      },
     ],
   },
   {
