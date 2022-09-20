@@ -19,7 +19,7 @@ const resourceCategories = [
         url: "https://www.stephaniemorillo.co/product-page/the-developer-s-guide-to-content-creation",
       },
       {
-        name: "Developer Relations by Caroline Lewko & James Parton",
+        name: "Developer Relations",
         url: "https://www.devrelbook.com/",
       },
     ],
