@@ -11,17 +11,22 @@ function Header() {
 
   useEffect(() => setMounted(true), []);
 
-  if (!mounted) return null;
-
   return (
-    <header className=" mx-auto max-w-3xl  pt-4 ">
-      <div className="flex items-center justify-end">
+    <header className="pt-8">
+      <div className="container flex items-center justify-end">
+        {/* 4 l8r */}
+        {/* <Link href="/">
+          <a className="short-transitions group font-mono hover:animate-[spin_2s_linear_infinite]">
+            &lt;3
+          </a>
+        </Link> */}
+
         <button
           onClick={() => {
             setTheme(resolvedTheme === "light" ? "dark" : "light");
           }}
           type="button"
-          className="rounded-md p-2 hover:bg-gray-200 dark:hover:bg-gray-700"
+          className="rounded-md p-2 transition-colors duration-300 hover:bg-gray-500/10"
           aria-label={theme === "light" ? "Dark theme" : "Light theme"}
         >
           {theme === "light" ? <MoonIcon /> : <SunIcon />}

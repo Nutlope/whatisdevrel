@@ -1,52 +1,32 @@
 @tailwind base;
 @tailwind components;
+
+@layer base {
+  body {
+    @apply font-light leading-[1.75] text-gray-600 dark:text-gray-400;
+    @screen md {
+      font-size: 20px;
+    }
+  }
+}
+
+.link {
+  @apply underline decoration-dotted underline-offset-4 transition-colors duration-300;
+}
+.link:hover {
+  @apply text-black dark:text-white;
+}
+
+.title {
+  @apply font-serif text-black dark:text-white;
+}
+
+.section {
+  @apply mt-10 md:mt-24;
+}
+
+.container {
+  @apply max-w-4xl px-4;
+}
+
 @tailwind utilities;
-
-/* * {
-  font-family: system-ui, -apple-system, blinkmacsystemfont, "segoe ui",
-    "helvetica neue", helvetica, ubuntu, roboto, sans-serif;
-  line-height: 1.625;
-  color: hsla(0, 0%, 100%, 0.7);
-  font-weight: 300;
-  background: #101010;
-  padding-left: 2px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: ui-serif, serif;
-  color: white;
-}
-
-p,
-li {
-  font-size: 1.25rem;
-  line-height: 1.75;
-} */
-* {
-  font-family: system-ui, -apple-system, blinkmacsystemfont, "segoe ui",
-    "helvetica neue", helvetica, ubuntu, roboto, sans-serif;
-  line-height: 1.625;
-  font-weight: 300;
-  /* background: white; */
-  padding-left: 2px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: ui-serif, serif;
-  color: black;
-}
-
-p,
-li{
-  font-size: 1.25rem;
-  line-height: 1.75;
-  color:#5d5959
-}
