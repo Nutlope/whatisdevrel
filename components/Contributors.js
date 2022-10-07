@@ -62,7 +62,7 @@ export default function Contributors() {
                   rel="noopener noreferrer"
                   className="link rounded-md p-3 hover:bg-gray-500/10"
                 >
-                  <span className="sr-only">Twitter</span>
+                  <span className="sr-only">{person.name} Twitter</span>
                   <svg
                     className="h-5 w-5"
                     aria-hidden="true"
@@ -82,7 +82,7 @@ export default function Contributors() {
                   rel="noopener noreferrer"
                   className="link rounded-md p-3 hover:bg-gray-500/10"
                 >
-                  <span className="sr-only">Website</span>
+                  <span className="sr-only">{person.name} Website</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
