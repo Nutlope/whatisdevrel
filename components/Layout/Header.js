@@ -25,9 +25,9 @@ function Header() {
           onClick={() => {
             setTheme(resolvedTheme === "light" ? "dark" : "light");
           }}
-          aria-label="Toggle dark/light mode"
           type="button"
           className="rounded-md p-2 transition-colors duration-300 hover:bg-gray-500/10"
+          aria-label={theme === "light" ? "Dark theme" : "Light theme"}
         >
           {theme === "light" ? <MoonIcon /> : <SunIcon />}
         </button>

@@ -29,9 +29,9 @@ export default function Jobs() {
 
   return (
     <section className="section container border-t border-gray-700 pt-6">
-      <h1 className="title mt-4 mb-8 text-3xl md:text-5xl">
+      <h2 className="title mt-4 mb-8 text-3xl md:text-5xl">
         Getting a job in DevRel
-      </h1>
+      </h2>
       <p>
         As mentioned, the job market for devrels is very hot right now. I have
         startups that message me every week asking if I know any good developer
