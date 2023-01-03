@@ -68,6 +68,10 @@ const resourceCategories = [
         name: "Doing DevRel Today",
         url: "https://dev.to/jacobandrewsky/what-is-devrel-and-how-can-you-start-doing-it-today-lpc",
       },
+      {
+        name: "Why Developer Relations Is Crucial to the Success of Web3",
+        url: "https://blog.chain.link/why-devrel-crucial-to-success-web3",
+      },
     ],
   },
   {
