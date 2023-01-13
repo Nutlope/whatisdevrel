@@ -60,7 +60,7 @@ export default function Contributors() {
                   href={person.twitterUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="link rounded-md p-3 hover:bg-gray-500/10"
+                  className="link block rounded-md p-3 hover:bg-gray-500/10"
                 >
                   <span className="sr-only">{person.name} Twitter</span>
                   <svg
