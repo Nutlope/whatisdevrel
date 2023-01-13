@@ -80,7 +80,7 @@ export default function Contributors() {
                   href={person.websiteUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="link rounded-md p-3 hover:bg-gray-500/10"
+                  className="link block rounded-md p-3 hover:bg-gray-500/10"
                 >
                   <span className="sr-only">{person.name} Website</span>
                   <svg
