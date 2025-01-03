@@ -16,6 +16,9 @@ export default function Advice() {
           How to engage developers
         </h3>
         <ul className="ml-4 list-disc space-y-3">
+        <li>
+            <strong className="font-bold">Build great examples.</strong> Show developers how they can use your product through great cookbooks, example apps, and content. You want to emulate how developers would use your product/API and show them cool use cases.
+          </li>
           <li>
             <strong className="font-bold">Show, don’t tell.</strong> Break down
             barriers to getting their hands on the product as quickly as

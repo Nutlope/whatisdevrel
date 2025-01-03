@@ -35,9 +35,7 @@ export default function Jobs() {
       <p>
         As mentioned, the job market for devrels is very hot right now. I have
         startups that message me every week asking if I know any good developer
-        advocates, so there is a big need in the market right now. I'm going to
-        be posting a list of companies that are hiring in this section each
-        month, starting on August 1st.
+        advocates, so there is a big need in the market right now.
       </p>
       {/* <div className="mx-auto mb-6 mt-6 text-center">
         <a href="https://twitter.com/nutlope/status/1440814837542514703">
@@ -78,11 +76,11 @@ export default function Jobs() {
         developers, creating content, and managing communities.
       </p>
       <p className="mt-4 mb-8">
-        If you already have two of these skills with prior work, feel free to{" "}
+        If you already have at least two of these skills with strong evidence & can work in the US, feel free to{" "}
         <a href="https://twitter.com/nutlope" className="link font-medium">
           DM me on Twitter
         </a>{" "}
-        and I can try to connect you to startups that are hiring!
+        and I can try to connect you to startups that are hiring! There are companies hiring outside the US but most of my connections are specifically hiring in SF, NYC, or remote US.
       </p>
     </section>
   );
