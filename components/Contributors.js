@@ -4,7 +4,7 @@ export default function Contributors() {
   const contributors = [
     {
       name: "Hassan El Mghari",
-      role: "Vercel",
+      role: "Together AI",
       imageUrl: "/hassan_grayscale.png",
       twitterUrl: "https://twitter.com/nutlope",
       websiteUrl: "https://www.elmghari.com/",
@@ -18,7 +18,7 @@ export default function Contributors() {
     },
     {
       name: "Camila Ramos",
-      role: "Edge & Node",
+      role: "Berachain",
       imageUrl: "/cami_grayscale.png",
       twitterUrl: "https://twitter.com/camiinthisthang",
       websiteUrl:
@@ -26,7 +26,7 @@ export default function Contributors() {
     },
     {
       name: "Shawn Wang",
-      role: "DX Tips",
+      role: "Smol AI",
       imageUrl: "/swyx_grayscale.png",
       twitterUrl: "https://twitter.com/swyx",
       websiteUrl: "https://swyx.io/",
