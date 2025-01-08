@@ -27,6 +27,8 @@ const resourceCategories = [
         name: "Swyx's blog",
         url: "https://www.swyx.io/ideas?filter=devrel",
       },
+      { name: "Lee's blog",
+        url: "https://leerob.com/n/devtools",
       {
         name: "Kurt Kemple's blog",
         url: "https://theworst.dev/content",
@@ -64,6 +66,14 @@ const resourceCategories = [
         name: "Doing DevRel Today",
         url: "https://dev.to/jacobandrewsky/what-is-devrel-and-how-can-you-start-doing-it-today-lpc",
       },
+      {
+        name: "On Developer Experience",
+        url: "https://leerob.com/n/dx"
+      },
+      {
+        name: "On Developer Marketing",
+        url: "https://leerob.com/n/developer-marketing"
+      }
     ],
   },
   {
